@@ -2,11 +2,18 @@ document.addEventListener("DOMContentLoaded", function () {
   const style = document.createElement("style");
   style.textContent = `
     .hidden {
-      display: none;
-    }
-    .transition-height {
-      transition: height 0.3s ease;
-    }
+            display: none;
+        }
+        .transition-height {
+            transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
+            overflow: hidden;
+            max-height: 0;
+            opacity: 0;
+        }
+        .expanded {
+            max-height: 500px; /* Adjust as needed */
+            opacity: 1;
+        }
   `;
   document.head.appendChild(style);
 
@@ -14,12 +21,23 @@ document.addEventListener("DOMContentLoaded", function () {
     const stages = [1, 2, 3, 4];
     stages.forEach((s) => {
       const element = document.getElementById(`stage-${s}`);
-      if (element) {
-        if (s === stage) {
-          element.classList.toggle("hidden");
+      if (s === stage) {
+        if (element.classList.contains("hidden")) {
+          element.classList.remove("hidden");
+          setTimeout(() => {
+            element.classList.add("expanded");
+          }, 10);
         } else {
-          element.classList.add("hidden");
+          element.classList.remove("expanded");
+          setTimeout(() => {
+            element.classList.add("hidden");
+          }, 500);
         }
+      } else {
+        element.classList.remove("expanded");
+        setTimeout(() => {
+          element.classList.add("hidden");
+        }, 500);
       }
     });
   }
