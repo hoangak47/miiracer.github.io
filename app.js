@@ -9,12 +9,14 @@ style.innerHTML = `
   padding: 0;
   box-sizing: border-box;
 }
+  
 .custom-container {
   background: rgba(255, 255, 255, 0.1);
   padding: 30px;
   border-radius: 10px;
   width: 600px;
 }
+
 .custom-accordion-button {
   background-color: #fff;
   color: #000;
@@ -31,56 +33,44 @@ style.innerHTML = `
   align-items: center;
   border-bottom: 2px solid #ccc;
 }
+
 .custom-accordion-button:hover {
   background-color: #eee;
 }
+
 .custom-accordion-content {
   background-color: #27ae60;
   color: #fff;
-  max-height: 0;
   overflow: hidden;
-  transition: max-height 0.3s ease, padding 0.3s ease;
   padding: 0 15px;
+  height: 0;
+  opacity: 0;
+  transition: height 0.3s ease, padding 0.3s ease, opacity 0.3s ease;
 }
+
 .custom-accordion-content p {
   margin: 15px 0;
 }
+
 .custom-accordion-button[aria-expanded="true"] + .custom-accordion-content {
-  max-height: 200px;
+  height: auto;
+  opacity: 1;
   padding: 15px;
 }
 `;
 document.head.appendChild(style);
 
-// Create HTML structure
+// Create HTML structure with random content
 const container = document.createElement("div");
 container.className = "custom-container";
 container.innerHTML = `
   <h2>Frequently Asked Questions</h2>
   <div class="custom-accordion">
-    ${[
-      "Why is the moon sometimes out during the day?",
-      "Why is the sky blue?",
-      "Will we ever discover aliens?",
-      "How much does the Earth weigh?",
-      "How do airplanes stay up?",
-    ]
-      .map(
-        (question, i) => `
-      <div class="custom-accordion-item">
-        <button id="accordion-button-${
-          i + 1
-        }" class="custom-accordion-button" aria-expanded="false">
-          <span class="custom-accordion-title">${question}</span>
-          <span class="custom-icon" aria-hidden="true">+</span>
-        </button>
-        <div class="custom-accordion-content">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
-        </div>
-      </div>
-    `
-      )
-      .join("")}
+    ${createAccordionItem("Why is the moon sometimes out during the day?")}
+    ${createAccordionItem("Why is the sky blue?")}
+    ${createAccordionItem("Will we ever discover aliens?")}
+    ${createAccordionItem("How much does the Earth weigh?")}
+    ${createAccordionItem("How do airplanes stay up?")}
   </div>
 `;
 
@@ -90,7 +80,33 @@ if (tocContent) {
   tocContent.appendChild(container);
 }
 
-// Add JS behavior
+// Function to generate random text (short and long)
+function generateRandomText() {
+  const shortText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.";
+  const longText =
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti. Praesent tempor mauris id turpis pretium, eget laoreet odio sollicitudin. Fusce in mi nec purus cursus gravida a eget justo. Curabitur scelerisque, velit ac mollis condimentum, justo velit facilisis leo.";
+
+  return Math.random() > 0.5 ? shortText : longText;
+}
+
+// Function to create each accordion item with random text
+function createAccordionItem(question) {
+  const randomText = generateRandomText();
+
+  return `
+    <div class="custom-accordion-item">
+      <button class="custom-accordion-button" aria-expanded="false">
+        <span class="custom-accordion-title">${question}</span>
+        <span class="custom-icon" aria-hidden="true">+</span>
+      </button>
+      <div class="custom-accordion-content">
+        <p>${randomText}</p>
+      </div>
+    </div>
+  `;
+}
+
+// Add JS behavior to toggle accordion
 const items = container.querySelectorAll(".custom-accordion-button");
 
 function toggleAccordion() {
