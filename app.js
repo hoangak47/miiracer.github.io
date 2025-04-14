@@ -12,9 +12,9 @@ style.innerHTML = `
   
 .custom-container {
   background: rgba(255, 255, 255, 0.1);
-  padding: 30px;
+  padding: 30px 0;
   border-radius: 10px;
-  width: 600px;
+  width: 100%;
 }
 
 .custom-accordion-button {
