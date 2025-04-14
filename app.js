@@ -38,7 +38,7 @@ style.innerHTML = `
 }
 
 .custom-accordion-content {
-  color: #fff;
+  color: #000;
   overflow: hidden;
   padding: 0 15px;
   height: 0;
