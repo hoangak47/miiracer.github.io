@@ -27,7 +27,6 @@ style.innerHTML = `
   border: none;
   outline: none;
   font-size: 1.2rem;
-  transition: background-color 0.3s ease;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -39,13 +38,12 @@ style.innerHTML = `
 }
 
 .custom-accordion-content {
-  background-color: #27ae60;
   color: #fff;
   overflow: hidden;
   padding: 0 15px;
   height: 0;
   opacity: 0;
-  transition: height 0.3s ease, padding 0.3s ease, opacity 0.3s ease;
+  transition: height 0.5s ease, padding 0.5s ease, opacity 0.5s ease;
 }
 
 .custom-accordion-content p {
