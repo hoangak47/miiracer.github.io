@@ -9,23 +9,13 @@ style.innerHTML = `
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
-    url("https://i.postimg.cc/1R20Py9h/507.jpg") no-repeat center;
-  background-size: 100% 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: "Rowdies", cursive;
-}
-.container {
+.custom-container {
   background: rgba(255, 255, 255, 0.1);
   padding: 30px;
   border-radius: 10px;
   width: 600px;
 }
-.accordion button {
+.custom-accordion-button {
   background-color: #fff;
   color: #000;
   cursor: pointer;
@@ -41,10 +31,10 @@ body {
   align-items: center;
   border-bottom: 2px solid #ccc;
 }
-.accordion button:hover {
+.custom-accordion-button:hover {
   background-color: #eee;
 }
-.accordion .accordion-content {
+.custom-accordion-content {
   background-color: #27ae60;
   color: #fff;
   max-height: 0;
@@ -52,10 +42,10 @@ body {
   transition: max-height 0.3s ease, padding 0.3s ease;
   padding: 0 15px;
 }
-.accordion .accordion-content p {
+.custom-accordion-content p {
   margin: 15px 0;
 }
-.accordion button[aria-expanded="true"] + .accordion-content {
+.custom-accordion-button[aria-expanded="true"] + .custom-accordion-content {
   max-height: 200px;
   padding: 15px;
 }
@@ -64,10 +54,10 @@ document.head.appendChild(style);
 
 // Create HTML structure
 const container = document.createElement("div");
-container.className = "container";
+container.className = "custom-container";
 container.innerHTML = `
   <h2>Frequently Asked Questions</h2>
-  <div class="accordion">
+  <div class="custom-accordion">
     ${[
       "Why is the moon sometimes out during the day?",
       "Why is the sky blue?",
@@ -77,12 +67,14 @@ container.innerHTML = `
     ]
       .map(
         (question, i) => `
-      <div class="accordion-item">
-        <button id="accordion-button-${i + 1}" aria-expanded="false">
-          <span class="accordion-title">${question}</span>
-          <span class="icon" aria-hidden="true">+</span>
+      <div class="custom-accordion-item">
+        <button id="accordion-button-${
+          i + 1
+        }" class="custom-accordion-button" aria-expanded="false">
+          <span class="custom-accordion-title">${question}</span>
+          <span class="custom-icon" aria-hidden="true">+</span>
         </button>
-        <div class="accordion-content">
+        <div class="custom-accordion-content">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
         </div>
       </div>
@@ -99,7 +91,7 @@ if (tocContent) {
 }
 
 // Add JS behavior
-const items = container.querySelectorAll(".accordion button");
+const items = container.querySelectorAll(".custom-accordion-button");
 
 function toggleAccordion() {
   const isExpanded = this.getAttribute("aria-expanded") === "true";
