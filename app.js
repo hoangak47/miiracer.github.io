@@ -1,116 +1,118 @@
-document.addEventListener("DOMContentLoaded", function () {
-  const style = document.createElement("style");
-  style.textContent = `
-    .hidden {
-            display: none;
-        }
-        .transition-height {
-            transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
-            overflow: hidden;
-            max-height: 0;
-            opacity: 0;
-        }
-        .expanded {
-            max-height: 500px; /* Adjust as needed */
-            opacity: 1;
-        }
-  `;
-  document.head.appendChild(style);
+// accordion-full.js
 
-  function toggleStage(stage) {
-    const stages = [1, 2, 3, 4];
-    stages.forEach((s) => {
-      const element = document.getElementById(`stage-${s}`);
-      if (s === stage) {
-        if (element.classList.contains("hidden")) {
-          element.classList.remove("hidden");
-          setTimeout(() => {
-            element.classList.add("expanded");
-          }, 10);
-        } else {
-          element.classList.remove("expanded");
-          setTimeout(() => {
-            element.classList.add("hidden");
-          }, 500);
-        }
-      } else {
-        element.classList.remove("expanded");
-        setTimeout(() => {
-          element.classList.add("hidden");
-        }, 500);
-      }
-    });
+// Inject CSS
+const style = document.createElement("style");
+style.innerHTML = `
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+    url("https://i.postimg.cc/1R20Py9h/507.jpg") no-repeat center;
+  background-size: 100% 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Rowdies", cursive;
+}
+.container {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 10px;
+  width: 600px;
+}
+.accordion button {
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+  padding: 15px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #ccc;
+}
+.accordion button:hover {
+  background-color: #eee;
+}
+.accordion .accordion-content {
+  background-color: #27ae60;
+  color: #fff;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, padding 0.3s ease;
+  padding: 0 15px;
+}
+.accordion .accordion-content p {
+  margin: 15px 0;
+}
+.accordion button[aria-expanded="true"] + .accordion-content {
+  max-height: 200px;
+  padding: 15px;
+}
+`;
+document.head.appendChild(style);
+
+// Create HTML structure
+const container = document.createElement("div");
+container.className = "container";
+container.innerHTML = `
+  <h2>Frequently Asked Questions</h2>
+  <div class="accordion">
+    ${[
+      "Why is the moon sometimes out during the day?",
+      "Why is the sky blue?",
+      "Will we ever discover aliens?",
+      "How much does the Earth weigh?",
+      "How do airplanes stay up?",
+    ]
+      .map(
+        (question, i) => `
+      <div class="accordion-item">
+        <button id="accordion-button-${i + 1}" aria-expanded="false">
+          <span class="accordion-title">${question}</span>
+          <span class="icon" aria-hidden="true">+</span>
+        </button>
+        <div class="accordion-content">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+        </div>
+      </div>
+    `
+      )
+      .join("")}
+  </div>
+`;
+
+// Chèn vào phần tử có id 'toc-content'
+const tocContent = document.getElementById("toc-content");
+if (tocContent) {
+  tocContent.appendChild(container);
+}
+
+// Add JS behavior
+const items = container.querySelectorAll(".accordion button");
+
+function toggleAccordion() {
+  const isExpanded = this.getAttribute("aria-expanded") === "true";
+
+  // Close all
+  items.forEach((item) => {
+    item.setAttribute("aria-expanded", "false");
+  });
+
+  // Open this one
+  if (!isExpanded) {
+    this.setAttribute("aria-expanded", "true");
   }
+}
 
-  window.toggleStage = toggleStage;
-
-  const content = `
-    <div class="p-8">
-      <ul class="space-y-8">
-        <li>
-          <div class="flex items-start space-x-2 cursor-pointer" onclick="toggleStage(1)">
-            <span class="text-green-500 mt-1">•</span>
-            <h2 class="text-xl font-bold">Giai đoạn 1: Chuẩn bị thi công</h2>
-          </div>
-          <div id="stage-1" class="mt-2 transition-height">
-            <ul class="list-disc list-inside text-gray-400 mt-2 space-y-1">
-              <li>Bảng xác nhận vật liệu</li>
-              <li>Vật liệu mẫu thực tế</li>
-              <li>Sản phẩm mẫu</li>
-              <li>Bảng dự toán chi tiết</li>
-              <li>Bảng tiến độ chi tiết</li>
-            </ul>
-            <div class="mt-4 flex items-center space-x-2">
-              <span class="text-white">Xem thêm mẫu</span>
-              <i class="fas fa-arrow-right text-orange-500"></i>
-            </div>
-          </div>
-        </li>
-        <li>
-          <div class="flex items-start space-x-2 cursor-pointer" onclick="toggleStage(2)">
-            <span class="text-green-500 mt-1">•</span>
-            <h2 class="text-xl font-bold">Giai đoạn 2: Thi Công Phần Thô</h2>
-          </div>
-          <div id="stage-2" class="mt-2 hidden transition-height">
-            <ul class="list-disc list-inside text-gray-400 mt-2 space-y-1">
-              <li>Thành phần 1</li>
-              <li>Thành phần 2</li>
-              <li>Thành phần 3</li>
-            </ul>
-          </div>
-        </li>
-        <li>
-          <div class="flex items-start space-x-2 cursor-pointer" onclick="toggleStage(3)">
-            <span class="text-green-500 mt-1">•</span>
-            <h2 class="text-xl font-bold">Giai đoạn 3: Thi công hoàn thiện</h2>
-          </div>
-          <div id="stage-3" class="mt-2 hidden transition-height">
-            <ul class="list-disc list-inside text-gray-400 mt-2 space-y-1">
-              <li>Thành phần 1</li>
-              <li>Thành phần 2</li>
-              <li>Thành phần 3</li>
-            </ul>
-          </div>
-        </li>
-        <li>
-          <div class="flex items-start space-x-2 cursor-pointer" onclick="toggleStage(4)">
-            <span class="text-green-500 mt-1">•</span>
-            <h2 class="text-xl font-bold">Giai đoạn 4: Thi công nội thất</h2>
-          </div>
-          <div id="stage-4" class="mt-2 hidden transition-height">
-            <ul class="list-disc list-inside text-gray-400 mt-2 space-y-1">
-              <li>Thành phần 1</li>
-              <li>Thành phần 2</li>
-              <li>Thành phần 3</li>
-            </ul>
-          </div>
-        </li>
-      </ul>
-    </div>
-  `;
-
-  const target = document.getElementById("toc-content");
-  if (target) {
-    target.innerHTML = content;
-  }
-});
+items.forEach((item) => item.addEventListener("click", toggleAccordion));
