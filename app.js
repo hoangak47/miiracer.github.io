@@ -338,43 +338,11 @@ Giá bán tại khu vực tăng nhiều qua những năm gần đây và sẽ ti
     tocContent.appendChild(container);
   }
 
-  // Function to generate random text (short and long)
-  function generateRandomText() {
-    const shortText =
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.";
-    const longText =
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti. Praesent tempor mauris id turpis pretium, eget laoreet odio sollicitudin. Fusce in mi nec purus cursus gravida a eget justo. Curabitur scelerisque, velit ac mollis condimentum, justo velit facilisis leo.";
-
-    return Math.random() > 0.5 ? shortText : longText;
-  }
-
-  // Function to create each accordion item with random text
-  function createAccordionItem(question) {
-    const randomText = generateRandomText();
-
-    return `
-    <div class="custom-accordion-item">
-      <button class="custom-accordion-button" aria-expanded="false">
-        <span class="custom-accordion-title">${question}</span>
-        <span class="custom-icon" aria-hidden="true">+</span>
-      </button>
-      <div class="custom-accordion-content">
-        <p>${randomText}</p>
-      </div>
-    </div>
-  `;
-  }
-
   // Add JS behavior to toggle accordion
   const items = container.querySelectorAll(".custom-accordion-button");
 
   function toggleAccordion() {
     const isExpanded = this.getAttribute("aria-expanded") === "true";
-
-    // Close all
-    items.forEach((item) => {
-      item.setAttribute("aria-expanded", "false");
-    });
 
     // Open this one
     if (!isExpanded) {
