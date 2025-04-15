@@ -1085,6 +1085,150 @@ Giá bán tại khu vực tăng nhiều qua những năm gần đây và sẽ ti
     </div>
   </div>
   `;
+} else if (path.includes("/q7-boulevard")) {
+  html_content = `
+  <div class="custom-accordion">
+    <div class="custom-accordion-item">
+      <button class="custom-accordion-button" aria-expanded="false">
+        <span class="custom-accordion-title">VỊ TRÍ ĐẮT GIÁ TẠI TÂM ĐIỂM QUẬN 7</span>
+        <span class="custom-icon" aria-hidden="true">+</span>
+      </button>
+      <div class="custom-accordion-content">
+        <p><span style="font-size:16px;"><em><strong>Q7 Boulevard</strong></em> vươn mình kiêu hãnh ngay đại lộ Nguyễn Lương Bằng – một trong những trục thương mại, tài chính sầm uất nhất khu Nam và liền kề đô thị kiểu mẫu Phú Mỹ Hưng hiện đại.<em><strong> Q7 Boulevard</strong></em> kiến tạo nên chốn an cư lý tưởng và ngập tràn hơi thở thiên nhiên giữa nhịp sống sôi động của Nam Sài Gòn.</span></p>
+
+<div style="text-align:center">
+<figure class="image" style="display:inline-block"><img alt="" height="712" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20BOULEVARD/vitri.png" width="920" />
+<figcaption><strong>Vị trí dự án Q7 BOULEVARD</strong></figcaption>
+</figure>
+</div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="custom-accordion">
+    <div class="custom-accordion-item">
+      <button class="custom-accordion-button" aria-expanded="false">
+        <span class="custom-accordion-title">HƯỚNG NHÌN THỰC TẾ TỪ Q7 BOULEVARD</span>
+        <span class="custom-icon" aria-hidden="true">+</span>
+      </button>
+      <div class="custom-accordion-content">
+        <div style="text-align:center">
+<figure class="image" style="display:inline-block"><img alt="" height="437" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20BOULEVARD/nm1.png" width="920" />
+<figcaption><strong>TẦM NHÌN VỀ SÔNG SÀI GÒN</strong></figcaption>
+</figure>
+</div>
+
+<div style="text-align:center">
+<figure class="image" style="display:inline-block"><img alt="" height="437" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20BOULEVARD/nm2.png" width="920" />
+<figcaption><strong>TẦM NHÌN VỀ PHÚ MỸ HƯNG</strong></figcaption>
+</figure>
+</div>
+
+<div style="text-align:center">
+<figure class="image" style="display:inline-block"><img alt="" height="437" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20BOULEVARD/nm3.png" width="920" />
+<figcaption><strong>TẦM NHÌN VỀ NHÀ BÈ</strong></figcaption>
+</figure>
+</div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="custom-accordion">
+    <div class="custom-accordion-item">
+      <button class="custom-accordion-button" aria-expanded="false">
+        <span class="custom-accordion-title">THIẾT KẾ HIỆN ĐẠI GẦN GŨI THIÊN NHIÊN</span>
+        <span class="custom-icon" aria-hidden="true">+</span>
+      </button>
+      <div class="custom-accordion-content">
+        <p><span style="font-size:16px;">Tại<em><strong> Q7 Boulevard</strong></em>, cuộc sống sẽ trở nên thú vị hơn khi mỗi căn hộ đều được thiết kế và chăm chút đến từng chi tiết, cư dân sẽ có những trải nghiệm hoàn toàn mới trong một không gian sống đầy tiện nghi. Các căn hộ được thiết kế theo phong cách trang nhã phù hợp với lối sống hiện đại, tối đa hóa không gian để đón nhận trọn vẹn ánh sáng tự nhiên và làn gió trời tươi mát.</span></p>
+
+<p style="text-align:center"><img alt="" height="568" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20BOULEVARD/hn1.png" width="920" /></p>
+
+<p> </p>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="custom-accordion">
+    <div class="custom-accordion-item">
+      <button class="custom-accordion-button" aria-expanded="false">
+        <span class="custom-accordion-title">ĐẦY ĐỦ TIỆN ÍCH TRỌN VẸN TRẢI NGHIỆM</span>
+        <span class="custom-icon" aria-hidden="true">+</span>
+      </button>
+      <div class="custom-accordion-content">
+        <p><span style="font-size:16px;"><em><strong>Q7 Boulevard </strong></em>sở hữu nhiều tiện ích nội khu hoàn chỉnh, hiện đại - nơi bạn và gia đình sẽ đư</span></p>
+
+<div style="text-align:center">
+<figure class="image" style="display:inline-block"><img alt="" height="613" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20BOULEVARD/ban-can-ho-chung-cu-quan-7-tp-ho-chi-minh-1653643147-nhadat_cafeland_vn.jpg" width="920" />
+<figcaption><strong>Hồ bơi dự án</strong></figcaption>
+</figure>
+</div>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width:920px;">
+	<tbody>
+		<tr>
+		</tr>
+	</tbody>
+</table>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="custom-accordion">
+    <div class="custom-accordion-item">
+      <button class="custom-accordion-button" aria-expanded="false">
+        <span class="custom-accordion-title">THỪA HƯỞNG CHUỖI TIỆN ÍCH ĐẲNG CẤP TỪ PHÚ MỸ HƯNG</span>
+        <span class="custom-icon" aria-hidden="true">+</span>
+      </button>
+      <div class="custom-accordion-content">
+        <p><span style="font-size:16px;">Chỉ cách khu đô thị Phú Mỹ Hưng vài bước chân, <em><strong>Q7 Boulevard</strong></em> thừa hưởng trọn vẹn những tiện ích đạt tiêu chuẩn quốc tế trong khu vực như các tổ hợp trung tâm thương mại – siêu thị - dịch vụ giải trí, hệ thống y tế, giáo dục hàng đầu…</span></p>
+
+<div style="text-align:center">
+<figure class="image" style="display:inline-block"><img alt="" height="518" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20BOULEVARD/crescent-mall-quan-7-1712070085.jpg" width="920" />
+<figcaption><strong>TRUNG TÂM THƯƠNG MẠI CRESCENT</strong></figcaption>
+</figure>
+</div>
+
+<div style="text-align:center">
+<figure class="image" style="display:inline-block"><img alt="" height="593" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20BOULEVARD/1-cam-nang-mua-sam-vui-choi-tai-vivo-city-quan-7.jpg" width="920" />
+<figcaption><strong>TRUNG TÂM THƯƠNG MẠI SC VIVO</strong></figcaption>
+</figure>
+</div>
+
+<div style="text-align:center">
+<figure class="image" style="display:inline-block"><img alt="" height="518" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20BOULEVARD/pv3.jpg" width="920" />
+<figcaption><strong>BỆNH VIỆN FV</strong></figcaption>
+</figure>
+</div>
+
+<div style="text-align:center">
+<figure class="image" style="display:inline-block"><img alt="" height="519" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20BOULEVARD/Thi%E1%BA%BFt-k%E1%BA%BF-ch%C6%B0a-c%C3%B3-t%C3%AAn-93.png" width="920" />
+<figcaption><strong>TRUNG TÂM HỘI CHỢ VÀ TRIỄN LÃM SÀI GÒN (SECC)</strong></figcaption>
+</figure>
+</div>
+
+<div style="text-align:center">
+<figure class="image" style="display:inline-block"><img alt="" height="607" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20BOULEVARD/truong-quoc-te-canada-quan-7.jpg" width="920" />
+<figcaption><strong>TRƯỜNG QUỐC TẾ CANADA</strong></figcaption>
+</figure>
+</div>
+
+<div style="text-align:center">
+<figure class="image" style="display:inline-block"><img alt="" height="575" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20BOULEVARD/cau-anh-sao-di-duong-nao.jpg" width="920" />
+<figcaption><strong>HỒ BÁN NGUYỆT_ CẦU ÁNH SAO</strong></figcaption>
+</figure>
+</div>
+
+<p style="text-align: center;"><span style="color:#ff6633;"><span style="font-size:22px;"><strong>Chân thành cảm ơn Quý khách hàng quan tâm Dự án  Q7 BOULEVAR</strong></span></span></p>
+      </div>
+    </div>
+  </div>
+  `;
 }
 
 container.innerHTML = html_content;
