@@ -344,8 +344,15 @@ Giá bán tại khu vực tăng nhiều qua những năm gần đây và sẽ ti
   function toggleAccordion() {
     const isExpanded = this.getAttribute("aria-expanded") === "true";
 
-    // Toggle chỉ chính nó
-    this.setAttribute("aria-expanded", !isExpanded);
+    // Close all
+    items.forEach((item) => {
+      item.setAttribute("aria-expanded", "false");
+    });
+
+    // Open this one
+    if (!isExpanded) {
+      this.setAttribute("aria-expanded", "true");
+    }
   }
 
   items.forEach((item) => item.addEventListener("click", toggleAccordion));
