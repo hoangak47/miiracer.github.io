@@ -337,7 +337,7 @@ Giá bán tại khu vực tăng nhiều qua những năm gần đây và sẽ ti
     </div>
   </div>
 `;
-} else if (pathname === "/xi-grand-court-q10") {
+} else if (path.includes("/xi-grand-court-q10")) {
   html_content = `
   <div class="custom-accordion">
     <div class="custom-accordion-item">
