@@ -339,11 +339,13 @@ Giá bán tại khu vực tăng nhiều qua những năm gần đây và sẽ ti
   }
 
   // Add JS behavior to toggle accordion
-  const items = document.querySelectorAll(".my-accordion-button");
+  const items = container.querySelectorAll(".custom-accordion-button");
 
   function toggleAccordion() {
     const isExpanded = this.getAttribute("aria-expanded") === "true";
-    this.setAttribute("aria-expanded", isExpanded ? "false" : "true");
+
+    // Toggle chỉ chính nó
+    this.setAttribute("aria-expanded", !isExpanded);
   }
 
   items.forEach((item) => item.addEventListener("click", toggleAccordion));
