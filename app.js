@@ -344,14 +344,11 @@ Giá bán tại khu vực tăng nhiều qua những năm gần đây và sẽ ti
   function toggleAccordion() {
     const isExpanded = this.getAttribute("aria-expanded") === "true";
 
-    // Close all
-    items.forEach((item) => {
-      item.setAttribute("aria-expanded", "false");
-    });
-
     // Open this one
     if (!isExpanded) {
       this.setAttribute("aria-expanded", "true");
+    } else {
+      this.setAttribute("aria-expanded", "false");
     }
   }
 
