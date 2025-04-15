@@ -739,7 +739,7 @@ Giá bán tại khu vực tăng nhiều qua những năm gần đây và sẽ ti
     </div>
   </div>
   `;
-} else if (path.includes("/q7-saigon-riverside/")) {
+} else if (path.includes("/q7-saigon-riverside")) {
   html_content = `
   <div class="custom-accordion">
     <div class="custom-accordion-item">
