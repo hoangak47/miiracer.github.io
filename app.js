@@ -374,7 +374,7 @@ Giá bán tại khu vực tăng nhiều qua những năm gần đây và sẽ ti
   </div>
   <div class="custom-accordion">
     <div class="custom-accordion-item">
-      <button class="custom-accordion-button" aria-expanded="true">
+      <button class="custom-accordion-button" aria-expanded="false">
         <span class="custom-accordion-title">VỊ TRÍ DỰ ÁN XI GRAND COURT</span>
         <span class="custom-icon" aria-hidden="true">+</span>
       </button>
@@ -433,7 +433,7 @@ Giá bán tại khu vực tăng nhiều qua những năm gần đây và sẽ ti
   </div>
   <div class="custom-accordion">
     <div class="custom-accordion-item">
-      <button class="custom-accordion-button" aria-expanded="true">
+      <button class="custom-accordion-button" aria-expanded="false">
         <span class="custom-accordion-title">MẶT BẰNG DỰ ÁN XI GRAND COURT</span>
         <span class="custom-icon" aria-hidden="true">+</span>
       </button>
@@ -512,7 +512,7 @@ Giá bán tại khu vực tăng nhiều qua những năm gần đây và sẽ ti
   </div>
   <div class="custom-accordion">
     <div class="custom-accordion-item">
-      <button class="custom-accordion-button" aria-expanded="true">
+      <button class="custom-accordion-button" aria-expanded="false">
         <span class="custom-accordion-title">THIẾT KẾ CĂN HỘ XI GRAND COURT</span>
         <span class="custom-icon" aria-hidden="true">+</span>
       </button>
@@ -531,7 +531,7 @@ Giá bán tại khu vực tăng nhiều qua những năm gần đây và sẽ ti
   </div>
   <div class="custom-accordion">
     <div class="custom-accordion-item">
-      <button class="custom-accordion-button" aria-expanded="true">
+      <button class="custom-accordion-button" aria-expanded="false">
         <span class="custom-accordion-title">NỘI THẤT CĂN HỘ XI GRAND COURT</span>
         <span class="custom-icon" aria-hidden="true">+</span>
       </button>
@@ -573,7 +573,7 @@ Giá bán tại khu vực tăng nhiều qua những năm gần đây và sẽ ti
   </div>
   <div class="custom-accordion">
     <div class="custom-accordion-item">
-      <button class="custom-accordion-button" aria-expanded="true">
+      <button class="custom-accordion-button" aria-expanded="false">
         <span class="custom-accordion-title">TIỆN ÍCH NỔI BẬT DỰ ÁN XI GRAND COURT</span>
         <span class="custom-icon" aria-hidden="true">+</span>
       </button>
@@ -626,7 +626,7 @@ Giá bán tại khu vực tăng nhiều qua những năm gần đây và sẽ ti
   </div>
   <div class="custom-accordion">
     <div class="custom-accordion-item">
-      <button class="custom-accordion-button" aria-expanded="true">
+      <button class="custom-accordion-button" aria-expanded="false">
         <span class="custom-accordion-title">TIỆN ÍCH NỘI KHU DỰ ÁN XI GRADN COURT</span>
         <span class="custom-icon" aria-hidden="true">+</span>
       </button>
@@ -715,7 +715,7 @@ Giá bán tại khu vực tăng nhiều qua những năm gần đây và sẽ ti
   </div>
   <div class="custom-accordion">
     <div class="custom-accordion-item">
-      <button class="custom-accordion-button" aria-expanded="true">
+      <button class="custom-accordion-button" aria-expanded="false">
         <span class="custom-accordion-title">TIỆN ÍCH NGOẠI KHU XI GRAND COURT</span>
         <span class="custom-icon" aria-hidden="true">+</span>
       </button>
@@ -739,7 +739,354 @@ Giá bán tại khu vực tăng nhiều qua những năm gần đây và sẽ ti
     </div>
   </div>
   `;
+} else if (path.includes("/q7-saigon-riverside/")) {
+  html_content = `
+  <div class="custom-accordion">
+    <div class="custom-accordion-item">
+      <button class="custom-accordion-button" aria-expanded="false">
+        <span class="custom-accordion-title">TỔNG QUAN KHU CĂN HỘ Q7 SAIGON RIVERSIDE COMPLEX</span>
+        <span class="custom-icon" aria-hidden="true">+</span>
+      </button>
+      <div class="custom-accordion-content">
+        <ul>
+	<li><span style="font-size:18px;"><strong>Tên chính thức: </strong></span><span style="font-size:16px;">Q7 Saigon Riverside Complex</span></li>
+	<li><span style="font-size:18px;"><strong>Vị trí:</strong></span><span style="font-size:16px;"> Số 4, Đường Đào Trí, Phường Phú Thuận, Quận 7, TP.HCM</span></li>
+	<li><span style="font-size:18px;"><strong>Chủ đầu tư:</strong></span><span style="font-size:16px;"> Tập đoàn Hưng Thịnh</span></li>
+	<li><span style="font-size:18px;"><strong>Nhà thầu xây dựng:</strong></span><span style="font-size:16px;"> Hưng Thịnh Incons</span></li>
+	<li><span style="font-size:18px;"><strong>Diện tích dự án:</strong></span><span style="font-size:16px;">75.224,5m2</span></li>
+	<li><span style="font-size:18px;"><strong>Mật độ xây dựng:</strong></span><span style="font-size:16px;">38%</span></li>
+	<li><span style="font-size:18px;"><strong>Số căn hộ tiêu chuẩn: </strong></span><span style="font-size:16px;">3.580 căn 1PN-3PN, 115 căn Officetel và 53 căn Shophouse.</span>
+	<ul>
+		<li><span style="font-size:16px;">Căn 1 phòng ngủ (53.20m2 -53.67m2)</span></li>
+		<li><span style="font-size:16px;">Căn 2 phòng ngủ (66.66m2 – 73.49m2)</span></li>
+		<li><span style="font-size:16px;">Căn hộ 3 phòng ngủ (85.52m2 – 86.69m2)</span></li>
+	</ul>
+	</li>
+	<li><span style="font-size:18px;"><strong>Pháp lý:</strong></span><span style="font-size:16px;"> Sổ Hồng (Người Việt Nam – Lâu Dài), (Người Nước Ngoài – 50 Năm)</span></li>
+</ul>
+
+<p><span style="font-size:16px;"><strong>Q7 Saigon Riverside Complex</strong> sở hữu hơn 50 tiện ích đẳng cấp kết hợp cùng ứng dụng công nghệ Smarthome hiện đại, thông minh giúp nâng cao tiện nghi cho cư dân sinh sống tại nơi đây. Các tiện ích được kết hợp hài hòa giữa không gian sống xanh từ thiên nhiên và cuộc sống hiện đại của cư dân.</span></p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="custom-accordion">
+    <div class="custom-accordion-item">
+      <button class="custom-accordion-button" aria-expanded="false">
+        <span class="custom-accordion-title">VỊ TRÍ CĂN HỘ Q7 SAIGON RIVERSIDE</span>
+        <span class="custom-icon" aria-hidden="true">+</span>
+      </button>
+      <div class="custom-accordion-content">
+        <p><span style="font-size:16px;">Khu dân cư <strong>Q7 Saigon Riverside</strong> có vị trí đắc địa tại số 04 đường Đào Trí, Phú Thuận, Quận 7, Tp. HCM.Dự án sở hữu tầm nhìn trực tiếp ra sông Sài Gòn mang lại nguồn sinh khí trong lành và điều hòa không khí tự nhiên. Điều này giúp gia đình có sức khỏe thể chất dồi dào, giúp tinh thần luôn thoải mái.</span></p>
+
+<p style="text-align:center"><img alt="" height="431" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/1.PNG" width="920" /></p>
+
+<p> </p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="custom-accordion">
+    <div class="custom-accordion-item">
+      <button class="custom-accordion-button" aria-expanded="false">
+        <span class="custom-accordion-title">KẾT NỐI GIAO THÔNG TẠI Q7 SAIGON RIVERSIDE</span>
+        <span class="custom-icon" aria-hidden="true">+</span>
+      </button>
+      <div class="custom-accordion-content">
+        <p><span style="font-size:16px;">Từ khu căn hộ Q7 Riverside rất dễ dàng kết nối đến các vị trí trung tâm trong khu vực như:</span></p>
+
+<ul>
+	<li><span style="font-size:16px;">Kết nối Phú Mỹ Hưng trong 5 phút.</span></li>
+	<li><span style="font-size:16px;">Kết nối Mũi Đèn Đỏ trong vài bước chân.</span></li>
+	<li><span style="font-size:16px;">Kết nối Huỳnh Tấn Phát = > Nguyễn Tất Thành => Quận 1 khoảng 15 phút.</span></li>
+	<li><span style="font-size:16px;">Kết nối Cầu Phú Mỹ => Thủ Thiêm trong 15 Phút.</span></li>
+</ul>
+
+<p><span style="font-size:16px;">Đặc biệt, vài năm nữa khi cầu Thủ Thiêm 4 xây dựng xong sẽ đến quận 2 và Khu đô thị Sala chỉ trong ít phút đi xe. Vói hạ tầng giao thông thuận tiện, Q7 Saigon Riverside hứa hẹn sẽ là nơi an cư lý tưởng và tuyệt vời cho mọi cư dân.</span></p>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="custom-accordion">
+    <div class="custom-accordion-item">
+      <button class="custom-accordion-button" aria-expanded="false">
+        <span class="custom-accordion-title">MÔI TRƯỜNG SỐNG, PHONG THỦY TẠI Q7 SAIGON RIVERSIDE</span>
+        <span class="custom-icon" aria-hidden="true">+</span>
+      </button>
+      <div class="custom-accordion-content">
+        <p><span style="font-size:16px;">Chất lượng môi trường sống tại<strong> Q7 Saigon Riverside Complex</strong> không cần phải bàn cãi. Nơi đây thật sự tuyệt bởi liền kề sông Sài Gòn, tiếp diện mặt nước lớn, đón gió và ánh sáng từ sông nên không gian sống tại đây vô cùng xanh mát, trong lành.</span></p>
+
+<p><span style="font-size:16px;">Đứng tại ban công hay qua bất cứ ô cửa nào của căn hộ, cư dân cũng có thể ngắm nhìn dòng sông Sài Gòn thơ mộng, cầu Phú Mỹ đẹp lung linh mang cảm giác thanh bình, yên ả, lấy lại khoảnh khắc cân bằng cho cuộc sống bộn bề tấp nập hàng ngày.</span></p>
+
+<p><span style="font-size:16px;">Thế đất cao – hướng thủy. Nên phong thủy tại dự án được đánh giá khá tốt cho việc thu hút tài lộc, sinh khí cho chủ nhân sở hữu.</span></p>
+
+<p> </p>
+
+<p style="text-align:center"><img alt="" height="518" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/Ho-canh-quan-du-an-Q7-Saigon-Riverside-Complex-Hung-Thinh-Quan-7-1.jpg" width="920" /></p>
+
+<p> </p>
+
+<p style="text-align:center"><img alt="" height="515" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/phoi-canh-q7-saigon-riverside.jpg" width="920" /></p>
+
+<p> </p>
+
+<p> </p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="custom-accordion">
+    <div class="custom-accordion-item">
+      <button class="custom-accordion-button" aria-expanded="false">
+        <span class="custom-accordion-title">TIỆN ÍCH KHU DÂN CƯ Q7 SAIGON RIVERSIDE COMPLEX</span>
+        <span class="custom-icon" aria-hidden="true">+</span>
+      </button>
+      <div class="custom-accordion-content">
+        <p><span style="font-size:16px;"><strong>Q7 Saigon Riverside Complex </strong>được Hưng Thịnh Corp đầu tư hơn 50 tiện ích nội khu hiện đại: Khu thương mại, khu thể thao đa năng, khu vui chơi trẻ em,hồ bơi, quảng trường Symphony, khu sinh hoạt cộng đồng cầu khóa tình yêu, sân vườn trên không, công viên nội khu, hồ cảnh quan, khu BBQ,…</span></p>
+
+<p><span style="font-size:16px;">Ngoài ra, tại khu căn hộ này còn rất nhiều tiện ích vui chơi, giải trí đa dạng khác phù hợp với mọi lứa tuổi, sẽ mang đến một không gian sống đầy đủ tiện nghi, nâng niu và chăm sóc trọn vẹn cho chủ nhân sở hữu.</span></p>
+
+<p style="text-align:center"><img alt="" height="644" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/Khu-thu-gian-tap-Yoga-tai-du-an-Q7-Saigon-Riverside-Complex-Hung-Thinh-Quan-7-qxhp4vjgb1bo2rrzg79wqb7wd9jazm53qenm8swz8o.jpg" width="920" /></p>
+
+<p> </p>
+
+<div style="text-align:center">
+<figure class="image" style="display:inline-block"><img alt="" height="518" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/Khu-vui-choi-tre-em-tai-du-an-Q7-Saigon-Riverside-Complex-Hung-Thinh-Quan-7-02.jpg" width="920" />
+<figcaption><strong>khu vui chơi trẻ em</strong></figcaption>
+</figure>
+</div>
+
+<p> </p>
+
+<div style="text-align:center">
+<figure class="image" style="display:inline-block"><img alt="" height="518" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/Khu-vuc-BBQ-du-an-Q7-Saigon-Riverside-Complex-Hung-Thinh-Quan-7-02.jpg" width="920" />
+<figcaption><strong>Khu BBQ</strong></figcaption>
+</figure>
+</div>
+
+<p style="text-align:center"><img alt="" height="644" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/Noi-khu-q7-saigon-riverside-hinh-3-qxhp4tnrxd93fjupr6gnlboz6hskk7xn25cna8zrl4.jpg" width="920" /></p>
+
+<p> </p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="custom-accordion">
+    <div class="custom-accordion-item">
+      <button class="custom-accordion-button" aria-expanded="false">
+        <span class="custom-accordion-title">TIỆN ÍCH XUNG QUANH Q7 SAIGON RIVERSIDE COMPLEX</span>
+        <span class="custom-icon" aria-hidden="true">+</span>
+      </button>
+      <div class="custom-accordion-content">
+        <p><span style="font-size:16px;"><strong>Q7 Saigon Riverside Complex </strong>thừa hưởng hàng loạt hạ tầng kinh tế – xã hội và những tiện ích của Khu Nam Sài Gòn, Phú Mỹ Hưng, Quận 7.</span></p>
+
+<p><span style="font-size:16px;">Về thương mại – tài chính:SC VivoCity, The Crescent Mall</span></p>
+
+<p><span style="font-size:16px;">Y tế: Bệnh viện quận 7, bệnh viện FV, Tâm Đức cách dự án không quá 5 phút di chuyển.</span></p>
+
+<p><span style="font-size:16px;">Giáo dục: Sau lưng dự án là hệ thống trường quốc tế Canada, Nhật Bản, Đài Loan… Khu vực Phường Phú Thuận có tất cả trường học liên cấp từ mầm non đến trung học phổ thông.</span></p>
+
+<p><span style="font-size:16px;">Tiện ích công cộng – giải trí – thể thao: Công viên Phú Mỹ Hưng, Sân Gold 36 lỗ, Cầu Ánh Sao, Hồ Bán Nguyệt…</span></p>
+
+<div style="text-align:center">
+<figure class="image" style="display:inline-block"><img alt="" height="670" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/benh-vien-fv-lan-thu-2-dat-chung-nhan-chat-luong-y-te-quoc-te-jci-12-_6816.jpg" width="920" />
+<figcaption><strong>Bệnh viện FV</strong></figcaption>
+</figure>
+</div>
+
+<div style="text-align:center">
+<figure class="image" style="display:inline-block"><img alt="" height="512" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/oKaWb6b.jpg" width="920" />
+<figcaption><strong>Co.op mart</strong></figcaption>
+</figure>
+</div>
+
+<div style="text-align:center">
+<figure class="image" style="display:inline-block"><img alt="" height="516" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/rmit-university-has-risen-60-places-in-the-2020-times-higher-1662475123.jpg" width="920" />
+<figcaption><strong>Đại học RMIT</strong></figcaption>
+</figure>
+</div>
+
+<p style="text-align:center"><img alt="" height="643" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/1654046130-1312-img_2364.jpg" width="920" /></p>
+
+<p style="text-align:center"><img alt="" height="518" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/ubnd-quan-7-ben-ngoai.jpg" width="920" /></p>
+
+<p> </p>
+
+<p style="text-align:center"><img alt="" height="575" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/image-12.jpg" width="920" /></p>
+
+<p> </p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="custom-accordion">
+    <div class="custom-accordion-item">
+      <button class="custom-accordion-button" aria-expanded="false">
+        <span class="custom-accordion-title">MẶT BẰNG CĂN HỘ Q7 SAIGON RIVERSIDE COMPLEX</span>
+        <span class="custom-icon" aria-hidden="true">+</span>
+      </button>
+      <div class="custom-accordion-content">
+        <p><span style="font-size:16px;">Mặt bằng căn hộ được thiết kế rất thông minh và hợp lý. Tất cả căn hộ tại Q7 Riverside đều được thiết kế không gian mở.</span></p>
+
+<p><span style="font-size:16px;">Từng căn hộ đều được chú trọng thiết kế, các căn đều có nhiều hướng nhìn rộng bao quát thành phốnhư trung tâm quận 1, Phú Mỹ Hưng, cầu Phú Mỹ, Sông Sài Gòn,…</span></p>
+
+<div style="text-align:center">
+<figure class="image" style="display:inline-block"><img alt="" height="679" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/mat-bang-dien-hinh-q7-saigon-riv.png" width="920" />
+<figcaption><strong>Mặt bằng tổng thể</strong></figcaption>
+</figure>
+</div>
+
+<p> </p>
+
+<p><span style="font-size:16px;">Nội thất căn hộ Q7 Saigon Riverside lựa chọn màu trắng làm chủ đạo, kết hợp nhẹ nhàng gam xám trắng hiện đại. Sử dụng sàn gỗ sáng kết hợp phân bổ hợp lý hệ đèn trần. Do vậy, mang đến không gian sống ấm cúng, ngập tràn ánh sáng.</span></p>
+
+<p><span style="font-size:16px;">Thiết kế các căn hộ tận dụng được tất cả các góc làm cho các phòng có đầy đủ các tiện ích mà vẫn rộng rãi, đơn giản tạo nên không gian hài hòa</span>.</p>
+
+<div style="text-align:center">
+<figure class="image" style="display:inline-block"><img alt="" height="679" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/mbo1.png" width="920" />
+<figcaption><strong>Mặt bằng tầng 1</strong></figcaption>
+</figure>
+</div>
+
+<div style="text-align:center">
+<figure class="image" style="display:inline-block"><img alt="" height="679" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/mb1.png" width="920" />
+<figcaption><strong>Mặt bằng tầng 5</strong></figcaption>
+</figure>
+</div>
+
+<p style="text-align:center"><img alt="" height="845" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/block1.png" width="920" /></p>
+
+<p style="text-align:center"><img alt="" height="846" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/block3.jpg" width="920" /></p>
+
+<p style="text-align:center"><img alt="" height="774" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/block4.jpg" width="920" /></p>
+
+<p style="text-align:center"><img alt="" height="1049" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/block2.jpg" width="1200" /></p>
+
+<p style="text-align: center;"> </p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="custom-accordion">
+    <div class="custom-accordion-item">
+      <button class="custom-accordion-button" aria-expanded="false">
+        <span class="custom-accordion-title">Nội thất căn hộ Q7 Saigon Riverside</span>
+        <span class="custom-icon" aria-hidden="true">+</span>
+      </button>
+      <div class="custom-accordion-content">
+        <p><span style="font-size:16px;">Căn hộ <em><strong>Q7 Saigon Riverside Complex </strong></em>bàn giao các thiết bị nội thất bàn giao khá cao cấp so với phân khúc, như:</span></p>
+
+<ul>
+	<li><span style="font-size:16px;">Cửa gỗ chống cháy và khóa từ 3 lớp</span></li>
+	<li><span style="font-size:16px;">Gạch men cao cấp</span></li>
+	<li><span style="font-size:16px;">Sàn gỗ chổng thấm tiêu chuẩn châu Âu cho phòng ngủ</span></li>
+	<li><span style="font-size:16px;">Ban công với cửa đôi cách âm</span></li>
+	<li><span style="font-size:16px;">Thiết bị vệ sinh Toto.</span></li>
+	<li><span style="font-size:16px;">Full bộ nội thất bếp Malloca: Bếp từ, máy hút mùi, bồn rửa cao cấp, mặt đá cao cấp Solid Surface, kính cường lực ốp bếp</span></li>
+	<li><span style="font-size:16px;">Tủ bếp gỗ cao cấp An Cường: đầy đủ tủ bếp trên, tủ bếp dưới</span></li>
+	<li><span style="font-size:16px;">Hệ thống điều khiển thiết bị điện SmartHome điện quang</span></li>
+</ul>
+
+<p><span style="font-size:16px;">Đặc biệt, việc đảm bảo an toàn tuyệt đối cho cư dân với hệ thống phòng cháy chữa cháy được vận hành theo quy trình Nhật Bản là điểm cộng của <strong>Q7 Saigon Riverside Complex</strong> mà không phải dự án nào cũng có</span></p>
+
+<p><span style="color:#ff6633;"><span style="font-size:20px;"><strong>Nội thất căn hộ mẫu 2 phòng ngủ</strong></span></span></p>
+
+<p style="text-align:center"><img alt="" height="609" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/nm21ee.jpg" width="920" /></p>
+
+<p style="text-align:center"><img alt="" height="1305" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/nm22ee.jpg" width="920" /></p>
+
+<p> </p>
+
+<p style="text-align:center"><img alt="" height="588" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/nm23ee.jpg" width="920" /></p>
+
+<p style="text-align:center"><img alt="" height="613" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/nm24ee.jpg" width="920" /></p>
+
+<p style="text-align:center"><img alt="" height="613" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/nm25ee.jpg" width="920" /></p>
+
+<p style="text-align:center"><img alt="" height="613" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/nm26ee.jpg" width="920" /></p>
+
+<p style="text-align:center"><img alt="" height="627" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/nm28ee.jpg" width="920" /></p>
+
+<p style="text-align:center"><img alt="" height="613" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/nm27ee.jpg" width="920" /></p>
+
+<p><span style="color:#ff6633;"><span style="font-size:20px;"><strong>Nội thất căn hộ mẫu 3 phòng ngủ</strong></span></span></p>
+
+<p style="text-align:center"><img alt="" height="622" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/nm31ee.jpg" width="920" /></p>
+
+<p style="text-align:center"><img alt="" height="458" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/kb7.png" width="920" /></p>
+
+<p style="text-align:center"><img alt="" height="630" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/nm32ee.jpg" width="920" /></p>
+
+<p style="text-align: center;"> </p>
+
+<p style="text-align:center"><img alt="" height="639" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/nm39ee.jpg" width="920" /></p>
+
+<p style="text-align: center;"> </p>
+
+<p style="text-align:center"><img alt="" height="626" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/nm34ee.jpg" width="920" /></p>
+
+<p style="text-align: center;"> </p>
+
+<p style="text-align:center"><img alt="" height="634" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/nm36ee.jpg" width="920" /></p>
+
+<p style="text-align: center;"> </p>
+
+<p style="text-align:center"><img alt="" height="609" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/nm37ee.jpg" width="920" /></p>
+
+<p style="text-align: center;"> </p>
+
+<p style="text-align:center"><img alt="" height="613" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/nm38ee.jpg" width="920" /></p>
+
+<p style="text-align: center;"> </p>
+
+<p style="text-align: center;"> </p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="custom-accordion">
+    <div class="custom-accordion-item">
+      <button class="custom-accordion-button" aria-expanded="false">
+        <span class="custom-accordion-title">Những yếu tố tăng giá trị đầu tư tại Q7 Saigon Riverside - 4 Đào Trí Quận 7</span>
+        <span class="custom-icon" aria-hidden="true">+</span>
+      </button>
+      <div class="custom-accordion-content">
+        <p><span style="font-size:16px;">Cầu Thủ Thiêm 4 dài 2km với kinh phí đầu tư 5.200 tỷ đồng, nối từ đường Nguyễn Văn Linh (khu Nam, quận 7) đến Khu đô thị mới Thủ Thiêm (khu Đông, quận 2) đã được phê duyệt, tiến thành khởi công vào tháng 10/2019 giúp rút ngắn thời gian di chuyển từ dự án đến KĐT Thủ Thiêm và đại lộ Mai Chí Thọ khoảng 10 phút.</span></p>
+
+<p><span style="font-size:16px;">Các dự án xung quanh Đào Trí:<strong> Sunshine City Sài Gòn, Sky 89, Jamona City, River City, Grand Nest, An Gia Skyline, An Gia Riverside, River Panorama</strong>, đồng loạt sáng đèn cùng thời điểm <strong>Q7 Saigon Riverside Complex </strong>bàn giao.</span></p>
+
+<p><span style="font-size:16px;">Khu vui chơi giải trí lớn nhất <strong>Quận 7–Saigon Peninsula </strong>Mũi Đèn Đỏ. Được Vạn Thịnh Phát liên doanh cùng Pavilion Group và Genting Group triển khai 2016 kinh phí 6 tỷ đô. Khu phức hợp thiết kế tiêu chuẩn 6 sao bao gồm công viên đa chức năng, bến cảng du thuyền quốc tế, văn phòng, khách sạn, khu biệt thự, căn hộ và các khu chức năng khác cùng nhiều hạng mục công trình hạ tầng kỹ thuật đang từng bước hoàn thiện.</span></p>
+
+<p><span style="font-size:16px;">Ngoài ra, hạ tầng đô thị, những dự án đã lên kế hoạch triển khai tại Quận 7 được chính phủ phê duyệt, sẽ khởi công trong thời gian tới như:</span></p>
+
+<p><span style="font-size:16px;">–Tuyến đường sắt Monorail số 2dọc theo đại lộ Nguyễn Văn Linh .</span></p>
+
+<p><span style="font-size:16px;">–Đường trục Bắc Nam TP.HCM với tổng mức đầu tư gần 10.000 tỷ đồng.</span></p>
+
+<p><span style="font-size:16px;">–Hầm chui Nguyễn Văn Linh – Nguyễn Hữu Thọ.</span></p>
+
+<p><span style="font-size:16px;">–Cầu Nguyễn Khoáinối dài từ Quận 4 qua Quận 7.</span></p>
+
+<p><span style="font-size:16px;">–Cầu Phước Khánh nối khu Nam Sài Gòn với Nhơn Trạch (Đồng Nai).</span></p>
+
+<p><span style="font-size:16px;">Tiềm năng tăng giá tại khu vực Đào Trí nói riêng và Quận 7 nói chung khi các yếu tố chờ này hiện hữu. Chúng tôi tin chắc rằng giá trị bất động sản tại đây sẽ còn tăng lên 1 bậc. Việc cho dự án <strong>Q7 Saigon Riverside Complex</strong> để đầu tư trong giai đoạn hiện tại theo chúng tôi rất khả quan.</span></p>
+
+<p><span style="color:#ff6633;"><span style="font-size:22px;"><strong>Chân thành cảm ơn Quý khách hàng quan tâm Dự án  Q7 SAIGON RIVERSIDE COMPLEX</strong></span></span></p>
+      </div>
+    </div>
+  </div>
+  `;
 }
+
 container.innerHTML = html_content;
 
 // Chèn vào phần tử có id 'toc-content'
