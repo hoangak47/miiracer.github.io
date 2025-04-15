@@ -74,6 +74,10 @@ if (!path.includes("/du-an-d-homme-q6")) {
 }
 
 let html_content;
+
+const path_name =
+  "http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725";
+
 const container = document.createElement("div");
 container.className = "custom-container";
 if (path.includes("/du-an-d-homme-q6")) {
@@ -94,9 +98,9 @@ if (path.includes("/du-an-d-homme-q6")) {
 <p><span style="font-size:16px;"><span style="color:#0a0a0a;">Dự án sở hữu kiến trúc chữ Nhân <strong>“人” </strong>độc đáo, tượng trưng cho yếu tố lấy<strong> CON NGƯỜI</strong> làm trung tâm cho mọi sự phát triển.<em><strong> D-Homme</strong></em> không chỉ xây dựng <strong>NGÔI NHÀ </strong>mà còn kiến tạo</span><strong><span style="color:#0a0a0a;"> TỔ ẤM</span> </strong>– <span style="color:#0a0a0a;">Nơi cư dân được tận hưởng cuộc sống trọn vẹn cùng gia đình.<br />
 Song song đó, với thiết kế mặt ngoài lượn sóng cùng hiệu ứng đèn LED phô diễn ánh sáng về đêm, <em><strong>D-Homme</strong></em> nổi bật như một biểu tượng mới sáng nhất, sang trọng nhất tại trung tâm Chợ Lớn.</span></span></p>
 
-<p><span style="font-size:16px;"><img alt="" height="94" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/D-HOMME/DientichDat-280x120.png" width="220" /><img alt="" height="94" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/D-HOMME/MatDoXayDung-280x120.png" width="220" /><img alt="" height="94" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/D-HOMME/QuyMoCongTrinh-280x120-2.png" width="220" /><img alt="" height="94" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/D-HOMME/TuVanThietKe-280x120.png" width="220" /></span></p>
+<p><span style="font-size:16px;"><img alt="" height="94" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/D-HOMME/DientichDat-280x120.png" width="220" /><img alt="" height="94" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/D-HOMME/MatDoXayDung-280x120.png" width="220" /><img alt="" height="94" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/D-HOMME/QuyMoCongTrinh-280x120-2.png" width="220" /><img alt="" height="94" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/D-HOMME/TuVanThietKe-280x120.png" width="220" /></span></p>
 
-<p style="text-align:center"><img alt="" height="560" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/D-HOMME/(C%C5%A9)%20D-Homme%20mini%20brochure-h%C3%ACnh%20%E1%BA%A3nh-1.jpg" width="920" /></p>
+<p style="text-align:center"><img alt="" height="560" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/D-HOMME/(C%C5%A9)%20D-Homme%20mini%20brochure-h%C3%ACnh%20%E1%BA%A3nh-1.jpg" width="920" /></p>
 
 
       </div>
@@ -113,7 +117,7 @@ MỘT BƯỚC CHÂN NGÀN TIỆN ÍCH</span>
 <p><span style="font-size:16px;">Vị thế trung tâm Chợ Lớn – Khu giao thương thịnh vượng, sầm uất của cộng đồng dân cư Chợ Lớn lâu năm. Đây còn là nơi lưu giữ trọn vẹn nền văn hóa bản sắc với nhiều lễ hội phong phú và truyền thống gia đình chuẩn mực.</span></p>
 
 <div style="text-align:center">
-<figure class="image" style="display:inline-block"><img alt="" height="560" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/D-HOMME/(C%C5%A9)%20D-Homme%20mini%20brochure-h%C3%ACnh%20%E1%BA%A3nh-2.jpg" width="920" />
+<figure class="image" style="display:inline-block"><img alt="" height="560" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/D-HOMME/(C%C5%A9)%20D-Homme%20mini%20brochure-h%C3%ACnh%20%E1%BA%A3nh-2.jpg" width="920" />
 <figcaption><strong>Vị trí D-HOMME Quận 6</strong></figcaption>
 </figure>
 </div>
@@ -122,7 +126,7 @@ MỘT BƯỚC CHÂN NGÀN TIỆN ÍCH</span>
 
 <p> </p>
 
-<p style="text-align:center"><img alt="" height="560" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/D-HOMME/(C%C5%A9)%20D-Homme%20mini%20brochure-h%C3%ACnh%20%E1%BA%A3nh-3.jpg" width="920" /></p>
+<p style="text-align:center"><img alt="" height="560" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/D-HOMME/(C%C5%A9)%20D-Homme%20mini%20brochure-h%C3%ACnh%20%E1%BA%A3nh-3.jpg" width="920" /></p>
 
 
       </div>
@@ -148,7 +152,7 @@ MỘT BƯỚC CHÂN NGÀN TIỆN ÍCH</span>
 </ul>
 
 <div style="text-align:center">
-<figure class="image" style="display:inline-block"><img alt="" height="560" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/D-HOMME/(C%C5%A9)%20D-Homme%20mini%20brochure-h%C3%ACnh%20%E1%BA%A3nh-5.jpg" width="920" />
+<figure class="image" style="display:inline-block"><img alt="" height="560" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/D-HOMME/(C%C5%A9)%20D-Homme%20mini%20brochure-h%C3%ACnh%20%E1%BA%A3nh-5.jpg" width="920" />
 <figcaption><strong>Mặt bằng tầng D-HOMME Quận 6</strong></figcaption>
 </figure>
 </div>
@@ -170,7 +174,7 @@ MỘT BƯỚC CHÂN NGÀN TIỆN ÍCH</span>
 <p> </p>
 
 <div style="text-align:center">
-<figure class="image" style="display:inline-block"><img alt="" height="560" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/D-HOMME/(C%C5%A9)%20D-Homme%20mini%20brochure-h%C3%ACnh%20%E1%BA%A3nh-4.jpg" width="920" />
+<figure class="image" style="display:inline-block"><img alt="" height="560" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/D-HOMME/(C%C5%A9)%20D-Homme%20mini%20brochure-h%C3%ACnh%20%E1%BA%A3nh-4.jpg" width="920" />
 <figcaption><strong>Tiện ích trọn vẹn D-HOMME Quận 6</strong></figcaption>
 </figure>
 </div>
@@ -183,7 +187,7 @@ MỘT BƯỚC CHÂN NGÀN TIỆN ÍCH</span>
       </button>
       <div class="custom-accordion-content">
       <div style="text-align:center">
-<figure class="image" style="display:inline-block"><img alt="" height="560" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/D-HOMME/(C%C5%A9)%20D-Homme%20mini%20brochure-h%C3%ACnh%20%E1%BA%A3nh-6.jpg" width="920" />
+<figure class="image" style="display:inline-block"><img alt="" height="560" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/D-HOMME/(C%C5%A9)%20D-Homme%20mini%20brochure-h%C3%ACnh%20%E1%BA%A3nh-6.jpg" width="920" />
 <figcaption><strong>Mặt bằng tầng 1,2</strong></figcaption>
 </figure>
 </div>
@@ -191,7 +195,7 @@ MỘT BƯỚC CHÂN NGÀN TIỆN ÍCH</span>
 <p> </p>
 
 <div style="text-align:center">
-<figure class="image" style="display:inline-block"><img alt="" height="560" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/D-HOMME/(C%C5%A9)%20D-Homme%20mini%20brochure-h%C3%ACnh%20%E1%BA%A3nh-7.jpg" width="920" />
+<figure class="image" style="display:inline-block"><img alt="" height="560" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/D-HOMME/(C%C5%A9)%20D-Homme%20mini%20brochure-h%C3%ACnh%20%E1%BA%A3nh-7.jpg" width="920" />
 <figcaption><strong>Mặt bằng tầng 3,4</strong></figcaption>
 </figure>
 </div>
@@ -199,7 +203,7 @@ MỘT BƯỚC CHÂN NGÀN TIỆN ÍCH</span>
 <p> </p>
 
 <div style="text-align:center">
-<figure class="image" style="display:inline-block"><img alt="" height="560" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/D-HOMME/(C%C5%A9)%20D-Homme%20mini%20brochure-h%C3%ACnh%20%E1%BA%A3nh-8.jpg" width="920" />
+<figure class="image" style="display:inline-block"><img alt="" height="560" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/D-HOMME/(C%C5%A9)%20D-Homme%20mini%20brochure-h%C3%ACnh%20%E1%BA%A3nh-8.jpg" width="920" />
 <figcaption><strong>Mặt bầng tầng  5, 6-12</strong></figcaption>
 </figure>
 </div>
@@ -207,19 +211,19 @@ MỘT BƯỚC CHÂN NGÀN TIỆN ÍCH</span>
 <p> </p>
 
 <div style="text-align:center">
-<figure class="image" style="display:inline-block"><img alt="" height="560" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/D-HOMME/(C%C5%A9)%20D-Homme%20mini%20brochure-h%C3%ACnh%20%E1%BA%A3nh-9.jpg" width="920" />
+<figure class="image" style="display:inline-block"><img alt="" height="560" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/D-HOMME/(C%C5%A9)%20D-Homme%20mini%20brochure-h%C3%ACnh%20%E1%BA%A3nh-9.jpg" width="920" />
 <figcaption><strong>Mặt bằng tầng 12A, 12B-16,20-22,25-28</strong></figcaption>
 </figure>
 </div>
 
 <div style="text-align:center">
-<figure class="image" style="display:inline-block"><img alt="" height="560" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/D-HOMME/(C%C5%A9)%20D-Homme%20mini%20brochure-h%C3%ACnh%20%E1%BA%A3nh-10.jpg" width="920" />
+<figure class="image" style="display:inline-block"><img alt="" height="560" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/D-HOMME/(C%C5%A9)%20D-Homme%20mini%20brochure-h%C3%ACnh%20%E1%BA%A3nh-10.jpg" width="920" />
 <figcaption><strong>Mặt bằng tầng 17, 18</strong></figcaption>
 </figure>
 </div>
 
 <div style="text-align:center">
-<figure class="image" style="display:inline-block"><img alt="" height="560" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/D-HOMME/(C%C5%A9)%20D-Homme%20mini%20brochure-h%C3%ACnh%20%E1%BA%A3nh-11.jpg" width="920" />
+<figure class="image" style="display:inline-block"><img alt="" height="560" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/D-HOMME/(C%C5%A9)%20D-Homme%20mini%20brochure-h%C3%ACnh%20%E1%BA%A3nh-11.jpg" width="920" />
 <figcaption><strong>Mặt bằng tầng 19, 23</strong></figcaption>
 </figure>
 </div>
@@ -227,13 +231,13 @@ MỘT BƯỚC CHÂN NGÀN TIỆN ÍCH</span>
 <p> </p>
 
 <div style="text-align:center">
-<figure class="image" style="display:inline-block"><img alt="" height="560" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/D-HOMME/(C%C5%A9)%20D-Homme%20mini%20brochure-h%C3%ACnh%20%E1%BA%A3nh-12.jpg" width="920" />
+<figure class="image" style="display:inline-block"><img alt="" height="560" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/D-HOMME/(C%C5%A9)%20D-Homme%20mini%20brochure-h%C3%ACnh%20%E1%BA%A3nh-12.jpg" width="920" />
 <figcaption><strong>Mặt bằng tầng23A, 29</strong></figcaption>
 </figure>
 </div>
 
 <div style="text-align:center">
-<figure class="image" style="display:inline-block"><img alt="" height="560" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/D-HOMME/(C%C5%A9)%20D-Homme%20mini%20brochure-h%C3%ACnh%20%E1%BA%A3nh-13.jpg" width="920" />
+<figure class="image" style="display:inline-block"><img alt="" height="560" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/D-HOMME/(C%C5%A9)%20D-Homme%20mini%20brochure-h%C3%ACnh%20%E1%BA%A3nh-13.jpg" width="920" />
 <figcaption><strong>Mặt bằng tầng 30, tầng mái</strong></figcaption>
 </figure>
 </div>
@@ -249,7 +253,7 @@ MỘT BƯỚC CHÂN NGÀN TIỆN ÍCH</span>
 Nội thất tinh tế và sang trọng, bố trí không gian khoa học, tối ưu hóa mọi công năng theo cách hoàn hảo nhất.<br />
 Bàn tròn cho sinh hoạt gia đình; sàn nước, bếp đóng giúp tránh mùi trong không gian kín, phù hợp với văn hoá ẩm thực Châu Á và thói quen sinh hoạt của người Việt.</span></p>
 
-<p style="text-align:center"><img alt="" height="560" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/D-HOMME/(C%C5%A9)%20D-Homme%20mini%20brochure-h%C3%ACnh%20%E1%BA%A3nh-14.jpg" width="920" /></p>
+<p style="text-align:center"><img alt="" height="560" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/D-HOMME/(C%C5%A9)%20D-Homme%20mini%20brochure-h%C3%ACnh%20%E1%BA%A3nh-14.jpg" width="920" /></p>
 
 <p> </p>
       </div>
@@ -260,13 +264,13 @@ Bàn tròn cho sinh hoạt gia đình; sàn nước, bếp đóng giúp tránh m
         <span class="custom-icon" aria-hidden="true">+</span>
       </button>
       <div class="custom-accordion-content">
-      <p style="text-align:center"><img alt="" height="560" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/D-HOMME/(C%C5%A9)%20D-Homme%20mini%20brochure-h%C3%ACnh%20%E1%BA%A3nh-15.jpg" width="920" /></p>
+      <p style="text-align:center"><img alt="" height="560" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/D-HOMME/(C%C5%A9)%20D-Homme%20mini%20brochure-h%C3%ACnh%20%E1%BA%A3nh-15.jpg" width="920" /></p>
 
-<p style="text-align:center"><img alt="" height="560" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/D-HOMME/(C%C5%A9)%20D-Homme%20mini%20brochure-h%C3%ACnh%20%E1%BA%A3nh-16.jpg" width="920" /></p>
+<p style="text-align:center"><img alt="" height="560" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/D-HOMME/(C%C5%A9)%20D-Homme%20mini%20brochure-h%C3%ACnh%20%E1%BA%A3nh-16.jpg" width="920" /></p>
 
-<p style="text-align:center"><img alt="" height="560" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/D-HOMME/(C%C5%A9)%20D-Homme%20mini%20brochure-h%C3%ACnh%20%E1%BA%A3nh-17.jpg" width="920" /></p>
+<p style="text-align:center"><img alt="" height="560" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/D-HOMME/(C%C5%A9)%20D-Homme%20mini%20brochure-h%C3%ACnh%20%E1%BA%A3nh-17.jpg" width="920" /></p>
 
-<p style="text-align:center"><img alt="" height="560" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/D-HOMME/(C%C5%A9)%20D-Homme%20mini%20brochure-h%C3%ACnh%20%E1%BA%A3nh-18.jpg" width="920" /></p>
+<p style="text-align:center"><img alt="" height="560" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/D-HOMME/(C%C5%A9)%20D-Homme%20mini%20brochure-h%C3%ACnh%20%E1%BA%A3nh-18.jpg" width="920" /></p>
 
       </div>
     </div>
@@ -277,7 +281,7 @@ Bàn tròn cho sinh hoạt gia đình; sàn nước, bếp đóng giúp tránh m
       </button>
       <div class="custom-accordion-content">
         <div style="text-align:center">
-<figure class="image" style="display:inline-block"><img alt="" height="560" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/D-HOMME/(C%C5%A9)%20D-Homme%20mini%20brochure-h%C3%ACnh%20%E1%BA%A3nh-19.jpg" width="920" />
+<figure class="image" style="display:inline-block"><img alt="" height="560" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/D-HOMME/(C%C5%A9)%20D-Homme%20mini%20brochure-h%C3%ACnh%20%E1%BA%A3nh-19.jpg" width="920" />
 <figcaption><strong>Lý do nên chọn D-HOMME Quận 6</strong></figcaption>
 </figure>
 </div>
@@ -422,7 +426,7 @@ Giá bán tại khu vực tăng nhiều qua những năm gần đây và sẽ ti
 <p><span style="font-size:16px;">Có vị trí rất thuận lợi cho giao thông. Từ đây chúng ta có thể dễ dàng tiếp cận các con đại lộ lớn như Hồng Bàng, đường 3/2, Lý Thường Kiệt, Cách Mạng Tháng 8.</span></p>
 
 <div style="text-align:center">
-<figure class="image" style="display:inline-block"><img alt="" height="499" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/vi-tri-xi-grand-court.jpg" width="920" />
+<figure class="image" style="display:inline-block"><img alt="" height="499" src="${path_name}/upload/filemanager/images/XI-GRAND/vi-tri-xi-grand-court.jpg" width="920" />
 <figcaption><strong>Vị trí dự án XI GRAND COURT Quận 10</strong></figcaption>
 </figure>
 </div>
@@ -445,7 +449,7 @@ Giá bán tại khu vực tăng nhiều qua những năm gần đây và sẽ ti
 <p><span style="font-size:16px;">Đối tượng các căn hộ sau đây đa dạng từ các gia đình trẻ đến gia đình đông người. Bởi diện tích chung cư <em><strong>Xi Grand Court</strong></em> dao động từ 70 đến 109m2 cho căn 2 và 3 phòng ngủ, phù hợp với nhiều đối tượng sử dụng. Các căn hộ đều được thiết kế sang trọng, tận dụng tối đa các góc nhìn, hướng sáng, hướng gió đầy đủ.</span></p>
 
 <div style="text-align:center">
-<figure class="image" style="display:inline-block"><img alt="" height="991" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/mat-bang-tong-xi-grand-court.png" width="920" />
+<figure class="image" style="display:inline-block"><img alt="" height="991" src="${path_name}/upload/filemanager/images/XI-GRAND/mat-bang-tong-xi-grand-court.png" width="920" />
 <figcaption><strong>Mặt bằng tổng thế dự án XI GRAND COURT</strong></figcaption>
 </figure>
 </div>
@@ -461,7 +465,7 @@ Giá bán tại khu vực tăng nhiều qua những năm gần đây và sẽ ti
 <span style="font-size:18px;"><strong>❖ Số thang</strong>:</span><span style="font-size:16px;"> 03 thang máy, 01 thang bộ</span></p>
 
 <div style="text-align:center">
-<figure class="image" style="display:inline-block"><img alt="" height="640" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Xi-Block-C-MB-tang-19-26.jpg" width="920" />
+<figure class="image" style="display:inline-block"><img alt="" height="640" src="${path_name}/upload/filemanager/images/XI-GRAND/Xi-Block-C-MB-tang-19-26.jpg" width="920" />
 <figcaption><strong>Mặt bằng Block C</strong></figcaption>
 </figure>
 </div>
@@ -475,7 +479,7 @@ Giá bán tại khu vực tăng nhiều qua những năm gần đây và sẽ ti
 <span style="font-size:18px;"><strong>❖ Số thang:</strong></span><span style="font-size:16px;"><strong> </strong>03 thang máy, 01 thang bộ</span></p>
 
 <div style="text-align:center">
-<figure class="image" style="display:inline-block"><img alt="" height="650" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/B-T9-10-hinh-scaled.jpg" width="920" />
+<figure class="image" style="display:inline-block"><img alt="" height="650" src="${path_name}/upload/filemanager/images/XI-GRAND/B-T9-10-hinh-scaled.jpg" width="920" />
 <figcaption><strong>Mặt bằng block B</strong></figcaption>
 </figure>
 </div>
@@ -489,7 +493,7 @@ Giá bán tại khu vực tăng nhiều qua những năm gần đây và sẽ ti
 <span style="font-size:18px;"><strong>❖ Số thang: </strong></span><span style="font-size:16px;">03 thang máy, 01 thang bộ</span></p>
 
 <div style="text-align:center">
-<figure class="image" style="display:inline-block"><img alt="" height="650" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/A2-T9-10-hinh-scaled.jpg" width="920" />
+<figure class="image" style="display:inline-block"><img alt="" height="650" src="${path_name}/upload/filemanager/images/XI-GRAND/A2-T9-10-hinh-scaled.jpg" width="920" />
 <figcaption><strong>Mặt bằng Block A2</strong></figcaption>
 </figure>
 </div>
@@ -503,7 +507,7 @@ Giá bán tại khu vực tăng nhiều qua những năm gần đây và sẽ ti
 <span style="font-size:18px;"><strong>❖ Số thang: </strong></span><span style="font-size:16px;">03 thang máy, 01 thang bộ</span></p>
 
 <div style="text-align:center">
-<figure class="image" style="display:inline-block"><img alt="" height="650" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/A1-T9-10-can-ho-xi-grand-court.jpg" width="920" />
+<figure class="image" style="display:inline-block"><img alt="" height="650" src="${path_name}/upload/filemanager/images/XI-GRAND/A1-T9-10-can-ho-xi-grand-court.jpg" width="920" />
 <figcaption><strong>Mặt bằng Block A1</strong></figcaption>
 </figure>
 </div>
@@ -523,7 +527,7 @@ Giá bán tại khu vực tăng nhiều qua những năm gần đây và sẽ ti
 
 <p><span style="font-size:16px;">Thiết kế căn hộ thông minh, chủ đầu tư đã tối ưu hóa mặt bằng tầng 7 để tạo nên “công viên xanh thu nhỏ” để gia đình bạn có thể nghỉ ngơi, sinh hoạt sau những giờ làm việc căng thẳng.</span></p>
 
-<p style="text-align:center"><img alt="" height="689" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/du-an-xi-grand-court.jpg" width="920" /></p>
+<p style="text-align:center"><img alt="" height="689" src="${path_name}/upload/filemanager/images/XI-GRAND/du-an-xi-grand-court.jpg" width="920" /></p>
 
 
       </div>
@@ -544,22 +548,22 @@ Giá bán tại khu vực tăng nhiều qua những năm gần đây và sẽ ti
 	<li><span style="font-size:16px;">Phòng khách lót gạch cao cấp, loáng bóng, có kệ tủ, TV LCD lớn, vách ngăn kiếng với phòng ngủ.</span></li>
 </ul>
 
-<p style="text-align:center"><img alt="" height="668" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/noi-that-can-ho-xi-grand-court.jpg" width="920" /></p>
+<p style="text-align:center"><img alt="" height="668" src="${path_name}/upload/filemanager/images/XI-GRAND/noi-that-can-ho-xi-grand-court.jpg" width="920" /></p>
 
-<p style="text-align:center"><img alt="" height="613" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/thiet-ke-can-ho-xi-grand-court.jpg" width="920" /></p>
+<p style="text-align:center"><img alt="" height="613" src="${path_name}/upload/filemanager/images/XI-GRAND/thiet-ke-can-ho-xi-grand-court.jpg" width="920" /></p>
 
 <ul>
 	<li><span style="font-size:16px;">Toàn bộ phòng ngủ đều được trang bị cửa sổ nhiều ô lớn, sàn gỗ ấm cúng. Tầm view đa dạng về nội khu, Quận 5, Quận 10. Thiết kế dạng cửa hất, có thể đón nắng gió tự nhiên từ bên ngoài.</span></li>
 </ul>
 
-<p style="text-align:center"><img alt="" height="690" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/noi-that-nha-mau-du-an-xi-grand-court.jpg" width="920" /></p>
+<p style="text-align:center"><img alt="" height="690" src="${path_name}/upload/filemanager/images/XI-GRAND/noi-that-nha-mau-du-an-xi-grand-court.jpg" width="920" /></p>
 
 <ul>
 	<li><span style="font-size:16px;">Full thiết bị bếp đến từ các thương hiệu như Taka, Toshiba. Gồm: Tủ lạnh, Bếp, kệ bếp trên, kệ bếp dưới, lavabo, máy hút mùi,… Logia tích hợp kế bên, thoáng mát, sử dụng tiện lợi.</span></li>
 	<li><span style="font-size:16px;">Full nội thất Toilet cao cấp, phòng tắm rộng lớn.</span></li>
 </ul>
 
-<p style="text-align:center"><img alt="" height="690" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/phong-tam-du-an-xi-grand-court-q10.jpg" width="920" /></p>
+<p style="text-align:center"><img alt="" height="690" src="${path_name}/upload/filemanager/images/XI-GRAND/phong-tam-du-an-xi-grand-court-q10.jpg" width="920" /></p>
 
 <p><span style="font-size:16px;">Song, các chi tiết thiết kế bên trong căn hộ tuy đẹp, nhiều ưu điểm và tiện nghi nhưng chưa có sự tối ưu triệt để. Và không có nhiều điểm nhấn so với các sản phẩm cùng phân khúc.</span></p>
 
@@ -587,7 +591,7 @@ Giá bán tại khu vực tăng nhiều qua những năm gần đây và sẽ ti
 <p><span style="font-size:16px;">Bên cạnh hồ bơi người lớn thì còn có một khu bể bơi vui chơi cho trẻ em. Hồ bơi 4 mùa mở cửa 24/24 và hồ bơi miễn phí cho tất cả cư dân và người thân của các hộ dân tại dự án khi có nhu cầu.</span></p>
 
 <div style="text-align:center">
-<figure class="image" style="display:inline-block"><img alt="" height="390" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/ho%20boi%20can%20ho%204%20mat%20tien%20ly%20thuong%20kiet%20xi%20grand%20court%20q10.png" width="920" />
+<figure class="image" style="display:inline-block"><img alt="" height="390" src="${path_name}/upload/filemanager/images/XI-GRAND/ho%20boi%20can%20ho%204%20mat%20tien%20ly%20thuong%20kiet%20xi%20grand%20court%20q10.png" width="920" />
 <figcaption>Hồ bơi</figcaption>
 </figure>
 </div>
@@ -597,7 +601,7 @@ Giá bán tại khu vực tăng nhiều qua những năm gần đây và sẽ ti
 <p><span style="font-size:16px;">Khu tập thể dục có diện tích rộng rãi, trang bị nhiều dụng cụ tập luyện phù hợp với nhiều lứa tuổi đáp ứng mọi nhu cầu luyện tập. Tất cả máy móc và trang thiết bị trong khu tập Gym theo chuẩn hiện đại của Mỹ. Phòng tập mở cửa cho mọi cư dân cũng như khách vãng lai.</span></p>
 
 <div style="text-align:center">
-<figure class="image" style="display:inline-block"><img alt="" height="567" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/20230807154204-6f0e_wm.jpg" width="920" />
+<figure class="image" style="display:inline-block"><img alt="" height="567" src="${path_name}/upload/filemanager/images/XI-GRAND/20230807154204-6f0e_wm.jpg" width="920" />
 <figcaption><strong>Phòng tập Gym</strong></figcaption>
 </figure>
 </div>
@@ -609,7 +613,7 @@ Giá bán tại khu vực tăng nhiều qua những năm gần đây và sẽ ti
 <p><span style="font-size:16px;">Điểm đặc biệt cuối cùng là nền sân tại khu vui chơi đều được trải cát chống bay đảm bảo an toàn.</span></p>
 
 <div style="text-align:center">
-<figure class="image" style="display:inline-block"><img alt="" height="528" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/khu-vui-choi-du-an-xi-grand-court-quan-10-e1456339479769.jpg" width="920" />
+<figure class="image" style="display:inline-block"><img alt="" height="528" src="${path_name}/upload/filemanager/images/XI-GRAND/khu-vui-choi-du-an-xi-grand-court-quan-10-e1456339479769.jpg" width="920" />
 <figcaption><strong>Khu vui chơi </strong></figcaption>
 </figure>
 </div>
@@ -646,7 +650,7 @@ Giá bán tại khu vực tăng nhiều qua những năm gần đây và sẽ ti
 <p><span style="font-size:16px;">+ Dịch vụ chăm sóc khách hàng, nhân viên phục vụ 24/7.</span></p>
 
 <div style="text-align:center">
-<figure class="image" style="display:inline-block"><img alt="" height="633" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/tien-ich-du-an-xi-grand-court-q10.jpg" width="920" />
+<figure class="image" style="display:inline-block"><img alt="" height="633" src="${path_name}/upload/filemanager/images/XI-GRAND/tien-ich-du-an-xi-grand-court-q10.jpg" width="920" />
 <figcaption><strong>Tiện ích nội khu dự án</strong></figcaption>
 </figure>
 </div>
@@ -656,7 +660,7 @@ Giá bán tại khu vực tăng nhiều qua những năm gần đây và sẽ ti
 <p><span style="font-size:16px;">Tích hợp với vườn nướng BBQ ngoài trời, khu vui chơi dành riêng cho trẻ em. Là nơi quây quần “thường xuyên” của cư dân, nhất là khi về đêm.</span></p>
 
 <div style="text-align:center">
-<figure class="image" style="display:inline-block"><img alt="" height="518" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/cong-vien-can-ho-xi-grand-court.jpg" width="920" />
+<figure class="image" style="display:inline-block"><img alt="" height="518" src="${path_name}/upload/filemanager/images/XI-GRAND/cong-vien-can-ho-xi-grand-court.jpg" width="920" />
 <figcaption><strong><em>Phối cảnh vườn treo trên không</em></strong></figcaption>
 </figure>
 </div>
@@ -666,13 +670,13 @@ Giá bán tại khu vực tăng nhiều qua những năm gần đây và sẽ ti
 <p><span style="font-size:16px;">Sảnh đón khách sang trọng, diện tích lớn, 100% hành lang đến các căn hộ ốp đá bên ngoài.  Sử dụng hệ thống thang máy tốc độ cao.</span></p>
 
 <div style="text-align:center">
-<figure class="image" style="display:inline-block"><img alt="" height="690" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/sanh-don-khach-du-an-xi-grand-court.jpg" width="920" />
+<figure class="image" style="display:inline-block"><img alt="" height="690" src="${path_name}/upload/filemanager/images/XI-GRAND/sanh-don-khach-du-an-xi-grand-court.jpg" width="920" />
 <figcaption><strong>Sảnh đón khách</strong></figcaption>
 </figure>
 </div>
 
 <div style="text-align:center">
-<figure class="image" style="display:inline-block"><img alt="" height="690" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/sanh-thang-may-du-an-xi-grand-court-quan-10.jpg" width="920" />
+<figure class="image" style="display:inline-block"><img alt="" height="690" src="${path_name}/upload/filemanager/images/XI-GRAND/sanh-thang-may-du-an-xi-grand-court-quan-10.jpg" width="920" />
 <figcaption><strong>Hình ảnh thực tế thang máy</strong></figcaption>
 </figure>
 </div>
@@ -680,7 +684,7 @@ Giá bán tại khu vực tăng nhiều qua những năm gần đây và sẽ ti
 <p><span style="font-size:16px;">Trên nóc tầng khối đế là hồ bơi tràn rộng hơn 500m2. Trang bị đầy đủ hồ bơi dành cho trẻ em và người lớn. Tầm view nhìn xa nhờ hạ tầng đô thị xung quanh thấp, đẹp hơn khi quan sát về đêm.</span></p>
 
 <div style="text-align:center">
-<figure class="image" style="display:inline-block"><img alt="" height="690" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/tam-view-tu-can-ho-xi-grand-court.jpg" width="920" />
+<figure class="image" style="display:inline-block"><img alt="" height="690" src="${path_name}/upload/filemanager/images/XI-GRAND/tam-view-tu-can-ho-xi-grand-court.jpg" width="920" />
 <figcaption><strong><em>Tầm view từ hồ bơi </em></strong></figcaption>
 </figure>
 </div>
@@ -688,25 +692,25 @@ Giá bán tại khu vực tăng nhiều qua những năm gần đây và sẽ ti
 <p> </p>
 
 <div style="text-align:center">
-<figure class="image" style="display:inline-block"><img alt="" height="516" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/duong-chay-bo-xi-grand-court(1).png" width="920" />
+<figure class="image" style="display:inline-block"><img alt="" height="516" src="${path_name}/upload/filemanager/images/XI-GRAND/duong-chay-bo-xi-grand-court(1).png" width="920" />
 <figcaption><strong>Đường chạy bộ</strong></figcaption>
 </figure>
 </div>
 
 <div style="text-align:center">
-<figure class="image" style="display:inline-block"><img alt="" height="635" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/ho-bo-du-an-xi-grand-court(1).png" width="920" />
+<figure class="image" style="display:inline-block"><img alt="" height="635" src="${path_name}/upload/filemanager/images/XI-GRAND/ho-bo-du-an-xi-grand-court(1).png" width="920" />
 <figcaption><strong>Hồ bơi tràn bờ</strong></figcaption>
 </figure>
 </div>
 
 <div style="text-align:center">
-<figure class="image" style="display:inline-block"><img alt="" height="518" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/khu-dao-choi-xi-grand-court(1).png" width="920" />
+<figure class="image" style="display:inline-block"><img alt="" height="518" src="${path_name}/upload/filemanager/images/XI-GRAND/khu-dao-choi-xi-grand-court(1).png" width="920" />
 <figcaption><strong>Khuôn viên dự án</strong></figcaption>
 </figure>
 </div>
 
 <div style="text-align:center">
-<figure class="image" style="display:inline-block"><img alt="" height="518" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/quang-truong-noi-khu-xi-grand-co(1).png" width="920" />
+<figure class="image" style="display:inline-block"><img alt="" height="518" src="${path_name}/upload/filemanager/images/XI-GRAND/quang-truong-noi-khu-xi-grand-co(1).png" width="920" />
 <figcaption><strong>Quảng trường nội khu</strong></figcaption>
 </figure>
 </div>
@@ -729,7 +733,7 @@ Giá bán tại khu vực tăng nhiều qua những năm gần đây và sẽ ti
 </ul>
 
 <div style="text-align:center">
-<figure class="image" style="display:inline-block"><img alt="" height="632" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/can-ho-xi-grand-court-tien-ich-ngoai-khu-01.png" width="920" />
+<figure class="image" style="display:inline-block"><img alt="" height="632" src="${path_name}/upload/filemanager/images/XI-GRAND/can-ho-xi-grand-court-tien-ich-ngoai-khu-01.png" width="920" />
 <figcaption><strong>Tiện ích xung quanh dự án</strong></figcaption>
 </figure>
 </div>
@@ -780,7 +784,7 @@ Giá bán tại khu vực tăng nhiều qua những năm gần đây và sẽ ti
       <div class="custom-accordion-content">
         <p><span style="font-size:16px;">Khu dân cư <strong>Q7 Saigon Riverside</strong> có vị trí đắc địa tại số 04 đường Đào Trí, Phú Thuận, Quận 7, Tp. HCM.Dự án sở hữu tầm nhìn trực tiếp ra sông Sài Gòn mang lại nguồn sinh khí trong lành và điều hòa không khí tự nhiên. Điều này giúp gia đình có sức khỏe thể chất dồi dào, giúp tinh thần luôn thoải mái.</span></p>
 
-<p style="text-align:center"><img alt="" height="431" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/1.PNG" width="920" /></p>
+<p style="text-align:center"><img alt="" height="431" src="${path_name}/upload/filemanager/images/XI-GRAND/1.PNG" width="920" /></p>
 
 <p> </p>
       </div>
@@ -826,11 +830,11 @@ Giá bán tại khu vực tăng nhiều qua những năm gần đây và sẽ ti
 
 <p> </p>
 
-<p style="text-align:center"><img alt="" height="518" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/Ho-canh-quan-du-an-Q7-Saigon-Riverside-Complex-Hung-Thinh-Quan-7-1.jpg" width="920" /></p>
+<p style="text-align:center"><img alt="" height="518" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/Ho-canh-quan-du-an-Q7-Saigon-Riverside-Complex-Hung-Thinh-Quan-7-1.jpg" width="920" /></p>
 
 <p> </p>
 
-<p style="text-align:center"><img alt="" height="515" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/phoi-canh-q7-saigon-riverside.jpg" width="920" /></p>
+<p style="text-align:center"><img alt="" height="515" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/phoi-canh-q7-saigon-riverside.jpg" width="920" /></p>
 
 <p> </p>
 
@@ -851,12 +855,12 @@ Giá bán tại khu vực tăng nhiều qua những năm gần đây và sẽ ti
 
 <p><span style="font-size:16px;">Ngoài ra, tại khu căn hộ này còn rất nhiều tiện ích vui chơi, giải trí đa dạng khác phù hợp với mọi lứa tuổi, sẽ mang đến một không gian sống đầy đủ tiện nghi, nâng niu và chăm sóc trọn vẹn cho chủ nhân sở hữu.</span></p>
 
-<p style="text-align:center"><img alt="" height="644" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/Khu-thu-gian-tap-Yoga-tai-du-an-Q7-Saigon-Riverside-Complex-Hung-Thinh-Quan-7-qxhp4vjgb1bo2rrzg79wqb7wd9jazm53qenm8swz8o.jpg" width="920" /></p>
+<p style="text-align:center"><img alt="" height="644" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/Khu-thu-gian-tap-Yoga-tai-du-an-Q7-Saigon-Riverside-Complex-Hung-Thinh-Quan-7-qxhp4vjgb1bo2rrzg79wqb7wd9jazm53qenm8swz8o.jpg" width="920" /></p>
 
 <p> </p>
 
 <div style="text-align:center">
-<figure class="image" style="display:inline-block"><img alt="" height="518" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/Khu-vui-choi-tre-em-tai-du-an-Q7-Saigon-Riverside-Complex-Hung-Thinh-Quan-7-02.jpg" width="920" />
+<figure class="image" style="display:inline-block"><img alt="" height="518" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/Khu-vui-choi-tre-em-tai-du-an-Q7-Saigon-Riverside-Complex-Hung-Thinh-Quan-7-02.jpg" width="920" />
 <figcaption><strong>khu vui chơi trẻ em</strong></figcaption>
 </figure>
 </div>
@@ -864,12 +868,12 @@ Giá bán tại khu vực tăng nhiều qua những năm gần đây và sẽ ti
 <p> </p>
 
 <div style="text-align:center">
-<figure class="image" style="display:inline-block"><img alt="" height="518" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/Khu-vuc-BBQ-du-an-Q7-Saigon-Riverside-Complex-Hung-Thinh-Quan-7-02.jpg" width="920" />
+<figure class="image" style="display:inline-block"><img alt="" height="518" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/Khu-vuc-BBQ-du-an-Q7-Saigon-Riverside-Complex-Hung-Thinh-Quan-7-02.jpg" width="920" />
 <figcaption><strong>Khu BBQ</strong></figcaption>
 </figure>
 </div>
 
-<p style="text-align:center"><img alt="" height="644" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/Noi-khu-q7-saigon-riverside-hinh-3-qxhp4tnrxd93fjupr6gnlboz6hskk7xn25cna8zrl4.jpg" width="920" /></p>
+<p style="text-align:center"><img alt="" height="644" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/Noi-khu-q7-saigon-riverside-hinh-3-qxhp4tnrxd93fjupr6gnlboz6hskk7xn25cna8zrl4.jpg" width="920" /></p>
 
 <p> </p>
       </div>
@@ -895,30 +899,30 @@ Giá bán tại khu vực tăng nhiều qua những năm gần đây và sẽ ti
 <p><span style="font-size:16px;">Tiện ích công cộng – giải trí – thể thao: Công viên Phú Mỹ Hưng, Sân Gold 36 lỗ, Cầu Ánh Sao, Hồ Bán Nguyệt…</span></p>
 
 <div style="text-align:center">
-<figure class="image" style="display:inline-block"><img alt="" height="670" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/benh-vien-fv-lan-thu-2-dat-chung-nhan-chat-luong-y-te-quoc-te-jci-12-_6816.jpg" width="920" />
+<figure class="image" style="display:inline-block"><img alt="" height="670" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/benh-vien-fv-lan-thu-2-dat-chung-nhan-chat-luong-y-te-quoc-te-jci-12-_6816.jpg" width="920" />
 <figcaption><strong>Bệnh viện FV</strong></figcaption>
 </figure>
 </div>
 
 <div style="text-align:center">
-<figure class="image" style="display:inline-block"><img alt="" height="512" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/oKaWb6b.jpg" width="920" />
+<figure class="image" style="display:inline-block"><img alt="" height="512" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/oKaWb6b.jpg" width="920" />
 <figcaption><strong>Co.op mart</strong></figcaption>
 </figure>
 </div>
 
 <div style="text-align:center">
-<figure class="image" style="display:inline-block"><img alt="" height="516" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/rmit-university-has-risen-60-places-in-the-2020-times-higher-1662475123.jpg" width="920" />
+<figure class="image" style="display:inline-block"><img alt="" height="516" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/rmit-university-has-risen-60-places-in-the-2020-times-higher-1662475123.jpg" width="920" />
 <figcaption><strong>Đại học RMIT</strong></figcaption>
 </figure>
 </div>
 
-<p style="text-align:center"><img alt="" height="643" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/1654046130-1312-img_2364.jpg" width="920" /></p>
+<p style="text-align:center"><img alt="" height="643" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/1654046130-1312-img_2364.jpg" width="920" /></p>
 
-<p style="text-align:center"><img alt="" height="518" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/ubnd-quan-7-ben-ngoai.jpg" width="920" /></p>
+<p style="text-align:center"><img alt="" height="518" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/ubnd-quan-7-ben-ngoai.jpg" width="920" /></p>
 
 <p> </p>
 
-<p style="text-align:center"><img alt="" height="575" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/image-12.jpg" width="920" /></p>
+<p style="text-align:center"><img alt="" height="575" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/image-12.jpg" width="920" /></p>
 
 <p> </p>
       </div>
@@ -938,7 +942,7 @@ Giá bán tại khu vực tăng nhiều qua những năm gần đây và sẽ ti
 <p><span style="font-size:16px;">Từng căn hộ đều được chú trọng thiết kế, các căn đều có nhiều hướng nhìn rộng bao quát thành phốnhư trung tâm quận 1, Phú Mỹ Hưng, cầu Phú Mỹ, Sông Sài Gòn,…</span></p>
 
 <div style="text-align:center">
-<figure class="image" style="display:inline-block"><img alt="" height="679" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/mat-bang-dien-hinh-q7-saigon-riv.png" width="920" />
+<figure class="image" style="display:inline-block"><img alt="" height="679" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/mat-bang-dien-hinh-q7-saigon-riv.png" width="920" />
 <figcaption><strong>Mặt bằng tổng thể</strong></figcaption>
 </figure>
 </div>
@@ -950,24 +954,24 @@ Giá bán tại khu vực tăng nhiều qua những năm gần đây và sẽ ti
 <p><span style="font-size:16px;">Thiết kế các căn hộ tận dụng được tất cả các góc làm cho các phòng có đầy đủ các tiện ích mà vẫn rộng rãi, đơn giản tạo nên không gian hài hòa</span>.</p>
 
 <div style="text-align:center">
-<figure class="image" style="display:inline-block"><img alt="" height="679" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/mbo1.png" width="920" />
+<figure class="image" style="display:inline-block"><img alt="" height="679" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/mbo1.png" width="920" />
 <figcaption><strong>Mặt bằng tầng 1</strong></figcaption>
 </figure>
 </div>
 
 <div style="text-align:center">
-<figure class="image" style="display:inline-block"><img alt="" height="679" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/mb1.png" width="920" />
+<figure class="image" style="display:inline-block"><img alt="" height="679" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/mb1.png" width="920" />
 <figcaption><strong>Mặt bằng tầng 5</strong></figcaption>
 </figure>
 </div>
 
-<p style="text-align:center"><img alt="" height="845" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/block1.png" width="920" /></p>
+<p style="text-align:center"><img alt="" height="845" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/block1.png" width="920" /></p>
 
-<p style="text-align:center"><img alt="" height="846" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/block3.jpg" width="920" /></p>
+<p style="text-align:center"><img alt="" height="846" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/block3.jpg" width="920" /></p>
 
-<p style="text-align:center"><img alt="" height="774" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/block4.jpg" width="920" /></p>
+<p style="text-align:center"><img alt="" height="774" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/block4.jpg" width="920" /></p>
 
-<p style="text-align:center"><img alt="" height="1049" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/block2.jpg" width="1200" /></p>
+<p style="text-align:center"><img alt="" height="1049" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/block2.jpg" width="1200" /></p>
 
 <p style="text-align: center;"> </p>
       </div>
@@ -999,51 +1003,51 @@ Giá bán tại khu vực tăng nhiều qua những năm gần đây và sẽ ti
 
 <p><span style="color:#ff6633;"><span style="font-size:20px;"><strong>Nội thất căn hộ mẫu 2 phòng ngủ</strong></span></span></p>
 
-<p style="text-align:center"><img alt="" height="609" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/nm21ee.jpg" width="920" /></p>
+<p style="text-align:center"><img alt="" height="609" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/nm21ee.jpg" width="920" /></p>
 
-<p style="text-align:center"><img alt="" height="1305" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/nm22ee.jpg" width="920" /></p>
+<p style="text-align:center"><img alt="" height="1305" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/nm22ee.jpg" width="920" /></p>
 
 <p> </p>
 
-<p style="text-align:center"><img alt="" height="588" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/nm23ee.jpg" width="920" /></p>
+<p style="text-align:center"><img alt="" height="588" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/nm23ee.jpg" width="920" /></p>
 
-<p style="text-align:center"><img alt="" height="613" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/nm24ee.jpg" width="920" /></p>
+<p style="text-align:center"><img alt="" height="613" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/nm24ee.jpg" width="920" /></p>
 
-<p style="text-align:center"><img alt="" height="613" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/nm25ee.jpg" width="920" /></p>
+<p style="text-align:center"><img alt="" height="613" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/nm25ee.jpg" width="920" /></p>
 
-<p style="text-align:center"><img alt="" height="613" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/nm26ee.jpg" width="920" /></p>
+<p style="text-align:center"><img alt="" height="613" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/nm26ee.jpg" width="920" /></p>
 
-<p style="text-align:center"><img alt="" height="627" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/nm28ee.jpg" width="920" /></p>
+<p style="text-align:center"><img alt="" height="627" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/nm28ee.jpg" width="920" /></p>
 
-<p style="text-align:center"><img alt="" height="613" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/nm27ee.jpg" width="920" /></p>
+<p style="text-align:center"><img alt="" height="613" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/nm27ee.jpg" width="920" /></p>
 
 <p><span style="color:#ff6633;"><span style="font-size:20px;"><strong>Nội thất căn hộ mẫu 3 phòng ngủ</strong></span></span></p>
 
-<p style="text-align:center"><img alt="" height="622" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/nm31ee.jpg" width="920" /></p>
+<p style="text-align:center"><img alt="" height="622" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/nm31ee.jpg" width="920" /></p>
 
-<p style="text-align:center"><img alt="" height="458" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/kb7.png" width="920" /></p>
+<p style="text-align:center"><img alt="" height="458" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/kb7.png" width="920" /></p>
 
-<p style="text-align:center"><img alt="" height="630" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/nm32ee.jpg" width="920" /></p>
-
-<p style="text-align: center;"> </p>
-
-<p style="text-align:center"><img alt="" height="639" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/nm39ee.jpg" width="920" /></p>
+<p style="text-align:center"><img alt="" height="630" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/nm32ee.jpg" width="920" /></p>
 
 <p style="text-align: center;"> </p>
 
-<p style="text-align:center"><img alt="" height="626" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/nm34ee.jpg" width="920" /></p>
+<p style="text-align:center"><img alt="" height="639" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/nm39ee.jpg" width="920" /></p>
 
 <p style="text-align: center;"> </p>
 
-<p style="text-align:center"><img alt="" height="634" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/nm36ee.jpg" width="920" /></p>
+<p style="text-align:center"><img alt="" height="626" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/nm34ee.jpg" width="920" /></p>
 
 <p style="text-align: center;"> </p>
 
-<p style="text-align:center"><img alt="" height="609" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/nm37ee.jpg" width="920" /></p>
+<p style="text-align:center"><img alt="" height="634" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/nm36ee.jpg" width="920" /></p>
 
 <p style="text-align: center;"> </p>
 
-<p style="text-align:center"><img alt="" height="613" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/nm38ee.jpg" width="920" /></p>
+<p style="text-align:center"><img alt="" height="609" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/nm37ee.jpg" width="920" /></p>
+
+<p style="text-align: center;"> </p>
+
+<p style="text-align:center"><img alt="" height="613" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20RIVERSIDE/nm38ee.jpg" width="920" /></p>
 
 <p style="text-align: center;"> </p>
 
@@ -1097,7 +1101,7 @@ Giá bán tại khu vực tăng nhiều qua những năm gần đây và sẽ ti
         <p><span style="font-size:16px;"><em><strong>Q7 Boulevard</strong></em> vươn mình kiêu hãnh ngay đại lộ Nguyễn Lương Bằng – một trong những trục thương mại, tài chính sầm uất nhất khu Nam và liền kề đô thị kiểu mẫu Phú Mỹ Hưng hiện đại.<em><strong> Q7 Boulevard</strong></em> kiến tạo nên chốn an cư lý tưởng và ngập tràn hơi thở thiên nhiên giữa nhịp sống sôi động của Nam Sài Gòn.</span></p>
 
 <div style="text-align:center">
-<figure class="image" style="display:inline-block"><img alt="" height="712" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20BOULEVARD/vitri.png" width="920" />
+<figure class="image" style="display:inline-block"><img alt="" height="712" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20BOULEVARD/vitri.png" width="920" />
 <figcaption><strong>Vị trí dự án Q7 BOULEVARD</strong></figcaption>
 </figure>
 </div>
@@ -1114,19 +1118,19 @@ Giá bán tại khu vực tăng nhiều qua những năm gần đây và sẽ ti
       </button>
       <div class="custom-accordion-content">
         <div style="text-align:center">
-<figure class="image" style="display:inline-block"><img alt="" height="437" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20BOULEVARD/nm1.png" width="920" />
+<figure class="image" style="display:inline-block"><img alt="" height="437" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20BOULEVARD/nm1.png" width="920" />
 <figcaption><strong>TẦM NHÌN VỀ SÔNG SÀI GÒN</strong></figcaption>
 </figure>
 </div>
 
 <div style="text-align:center">
-<figure class="image" style="display:inline-block"><img alt="" height="437" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20BOULEVARD/nm2.png" width="920" />
+<figure class="image" style="display:inline-block"><img alt="" height="437" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20BOULEVARD/nm2.png" width="920" />
 <figcaption><strong>TẦM NHÌN VỀ PHÚ MỸ HƯNG</strong></figcaption>
 </figure>
 </div>
 
 <div style="text-align:center">
-<figure class="image" style="display:inline-block"><img alt="" height="437" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20BOULEVARD/nm3.png" width="920" />
+<figure class="image" style="display:inline-block"><img alt="" height="437" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20BOULEVARD/nm3.png" width="920" />
 <figcaption><strong>TẦM NHÌN VỀ NHÀ BÈ</strong></figcaption>
 </figure>
 </div>
@@ -1144,7 +1148,7 @@ Giá bán tại khu vực tăng nhiều qua những năm gần đây và sẽ ti
       <div class="custom-accordion-content">
         <p><span style="font-size:16px;">Tại<em><strong> Q7 Boulevard</strong></em>, cuộc sống sẽ trở nên thú vị hơn khi mỗi căn hộ đều được thiết kế và chăm chút đến từng chi tiết, cư dân sẽ có những trải nghiệm hoàn toàn mới trong một không gian sống đầy tiện nghi. Các căn hộ được thiết kế theo phong cách trang nhã phù hợp với lối sống hiện đại, tối đa hóa không gian để đón nhận trọn vẹn ánh sáng tự nhiên và làn gió trời tươi mát.</span></p>
 
-<p style="text-align:center"><img alt="" height="568" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20BOULEVARD/hn1.png" width="920" /></p>
+<p style="text-align:center"><img alt="" height="568" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20BOULEVARD/hn1.png" width="920" /></p>
 
 <p> </p>
 
@@ -1163,7 +1167,7 @@ Giá bán tại khu vực tăng nhiều qua những năm gần đây và sẽ ti
         <p><span style="font-size:16px;"><em><strong>Q7 Boulevard </strong></em>sở hữu nhiều tiện ích nội khu hoàn chỉnh, hiện đại - nơi bạn và gia đình sẽ đư</span></p>
 
 <div style="text-align:center">
-<figure class="image" style="display:inline-block"><img alt="" height="613" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20BOULEVARD/ban-can-ho-chung-cu-quan-7-tp-ho-chi-minh-1653643147-nhadat_cafeland_vn.jpg" width="920" />
+<figure class="image" style="display:inline-block"><img alt="" height="613" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20BOULEVARD/ban-can-ho-chung-cu-quan-7-tp-ho-chi-minh-1653643147-nhadat_cafeland_vn.jpg" width="920" />
 <figcaption><strong>Hồ bơi dự án</strong></figcaption>
 </figure>
 </div>
@@ -1189,37 +1193,37 @@ Giá bán tại khu vực tăng nhiều qua những năm gần đây và sẽ ti
         <p><span style="font-size:16px;">Chỉ cách khu đô thị Phú Mỹ Hưng vài bước chân, <em><strong>Q7 Boulevard</strong></em> thừa hưởng trọn vẹn những tiện ích đạt tiêu chuẩn quốc tế trong khu vực như các tổ hợp trung tâm thương mại – siêu thị - dịch vụ giải trí, hệ thống y tế, giáo dục hàng đầu…</span></p>
 
 <div style="text-align:center">
-<figure class="image" style="display:inline-block"><img alt="" height="518" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20BOULEVARD/crescent-mall-quan-7-1712070085.jpg" width="920" />
+<figure class="image" style="display:inline-block"><img alt="" height="518" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20BOULEVARD/crescent-mall-quan-7-1712070085.jpg" width="920" />
 <figcaption><strong>TRUNG TÂM THƯƠNG MẠI CRESCENT</strong></figcaption>
 </figure>
 </div>
 
 <div style="text-align:center">
-<figure class="image" style="display:inline-block"><img alt="" height="593" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20BOULEVARD/1-cam-nang-mua-sam-vui-choi-tai-vivo-city-quan-7.jpg" width="920" />
+<figure class="image" style="display:inline-block"><img alt="" height="593" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20BOULEVARD/1-cam-nang-mua-sam-vui-choi-tai-vivo-city-quan-7.jpg" width="920" />
 <figcaption><strong>TRUNG TÂM THƯƠNG MẠI SC VIVO</strong></figcaption>
 </figure>
 </div>
 
 <div style="text-align:center">
-<figure class="image" style="display:inline-block"><img alt="" height="518" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20BOULEVARD/pv3.jpg" width="920" />
+<figure class="image" style="display:inline-block"><img alt="" height="518" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20BOULEVARD/pv3.jpg" width="920" />
 <figcaption><strong>BỆNH VIỆN FV</strong></figcaption>
 </figure>
 </div>
 
 <div style="text-align:center">
-<figure class="image" style="display:inline-block"><img alt="" height="519" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20BOULEVARD/Thi%E1%BA%BFt-k%E1%BA%BF-ch%C6%B0a-c%C3%B3-t%C3%AAn-93.png" width="920" />
+<figure class="image" style="display:inline-block"><img alt="" height="519" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20BOULEVARD/Thi%E1%BA%BFt-k%E1%BA%BF-ch%C6%B0a-c%C3%B3-t%C3%AAn-93.png" width="920" />
 <figcaption><strong>TRUNG TÂM HỘI CHỢ VÀ TRIỄN LÃM SÀI GÒN (SECC)</strong></figcaption>
 </figure>
 </div>
 
 <div style="text-align:center">
-<figure class="image" style="display:inline-block"><img alt="" height="607" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20BOULEVARD/truong-quoc-te-canada-quan-7.jpg" width="920" />
+<figure class="image" style="display:inline-block"><img alt="" height="607" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20BOULEVARD/truong-quoc-te-canada-quan-7.jpg" width="920" />
 <figcaption><strong>TRƯỜNG QUỐC TẾ CANADA</strong></figcaption>
 </figure>
 </div>
 
 <div style="text-align:center">
-<figure class="image" style="display:inline-block"><img alt="" height="575" src="http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725/upload/filemanager/images/XI-GRAND/Q7%20BOULEVARD/cau-anh-sao-di-duong-nao.jpg" width="920" />
+<figure class="image" style="display:inline-block"><img alt="" height="575" src="${path_name}/upload/filemanager/images/XI-GRAND/Q7%20BOULEVARD/cau-anh-sao-di-duong-nao.jpg" width="920" />
 <figcaption><strong>HỒ BÁN NGUYỆT_ CẦU ÁNH SAO</strong></figcaption>
 </figure>
 </div>
