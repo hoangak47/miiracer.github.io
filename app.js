@@ -74,9 +74,11 @@ if (!path.includes("/du-an-d-homme-q6")) {
 }
 
 let html_content;
+const path_demo = window.location.origin;
 
-const path_name =
-  "http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725";
+const path_name = path_demo.includes("http://demo80.ninavietnam.org")
+  ? "http://demo80.ninavietnam.org/2025/thang-3/ctytnhhautubatongsancao_0304725"
+  : path_demo;
 
 const container = document.createElement("div");
 container.className = "custom-container";
