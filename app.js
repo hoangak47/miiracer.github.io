@@ -451,3 +451,59 @@ function toggleAccordion() {
 }
 
 items.forEach((item) => item.addEventListener("click", toggleAccordion));
+
+const isHomePage = window.location.pathname === "/";
+
+// Tìm phần tử form_title
+const form_title = document.querySelector(".dknt-title-main strong");
+
+// Nếu không phải trang chủ và form_title tồn tại, thay đổi fontSize
+if (!isHomePage && form_title) {
+  form_title.style.fontSize = "x-large";
+}
+
+// Mảng chứa các href cần xử lý
+const hrefArray = ["#dknbg", "#dkxnm", "#hoithem"];
+
+// Duyệt qua toàn bộ thẻ <a> trong trang
+document.querySelectorAll("a").forEach((a) => {
+  // Kiểm tra nếu href của thẻ a nằm trong mảng
+  if (hrefArray.includes(a.getAttribute("href"))) {
+    // Thêm sự kiện hover (mouseenter và mouseleave)
+    a.addEventListener("mouseenter", () => {
+      a.style.color = "#FF6633";
+    });
+    a.addEventListener("mouseleave", () => {
+      a.style.color = ""; // Trả lại màu ban đầu
+    });
+  }
+});
+
+// Tìm thẻ <a> có class jj-bg-secondary
+const anchorTag = document.querySelector("a.jj-bg-secondary");
+
+// Kiểm tra xem thẻ có tồn tại và chứa text "Đăng ký nhận bảng giá"
+if (anchorTag && anchorTag.textContent.trim() === "Đăng ký nhận bảng giá") {
+  // Thêm các class mới
+  anchorTag.classList.add("lazy", "fa-bounce", "entered", "loaded");
+  anchorTag.style.borderRadius = "8px";
+
+  // Xóa các class start-0 và w-100
+  anchorTag.classList.remove("start-0", "w-100");
+
+  // Tạo container cha để căn giữa với Flexbox
+  const container = document.createElement("div");
+  container.style.position = "fixed";
+  container.style.bottom = "0";
+  container.style.left = "0";
+  container.style.width = "100%";
+  container.style.display = "flex";
+  container.style.justifyContent = "center";
+
+  // Chuyển thẻ <a> vào container
+  anchorTag.parentNode.insertBefore(container, anchorTag);
+  container.appendChild(anchorTag);
+
+  // Đặt width cho thẻ <a>
+  anchorTag.style.width = "70%";
+}
